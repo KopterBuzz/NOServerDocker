@@ -20,3 +20,7 @@ the replays directory is the output path for NOBlackBox
 # TODO
 - rcon management
 - ban management
+
+# Contributing
+- feedback, suggestions, issue reports are welcome
+- if you wish to contribute to the repository, open a Pull Request
