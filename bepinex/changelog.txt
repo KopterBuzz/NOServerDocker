@@ -1,0 +1,6 @@
+3 commits since v5.4.23.2
+
+Changelog (excluding merges):
+* (cd593c4) [ManlyMarco] Add useful links to solution
+* (a90b5bb) [ManlyMarco] Upgrade Doorstop to version 4.4.0 (#1092)
+* (9cfc06e) [kohanis] Migrate to sdk-style projects (#894)

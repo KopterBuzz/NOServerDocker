@@ -1,0 +1,1 @@
+put any mods in ./plugins and pre-written config files for them in ./config

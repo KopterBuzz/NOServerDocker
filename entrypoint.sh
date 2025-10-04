@@ -124,4 +124,5 @@ cd ./server
 echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
-./NuclearOptionServer.x86_64
+chmod +x ./run_bepinex.sh
+./run_bepinex.sh

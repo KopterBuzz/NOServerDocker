@@ -1,0 +1,1 @@
+banned steamids will go to banlist.json in this folder
