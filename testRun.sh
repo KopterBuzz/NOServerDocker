@@ -2,9 +2,12 @@ sudo docker run \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
     -v "$(pwd)/replays":/replays noserver \
+    --modded true \
     --name "DOCKER TEST 123" \
-    --password "why"\
+    --password "broccoli_defrosted"\
     --port-override true \
     --port-value 7777 \
     --query-override true \
-    --query-value 7778
+    --query-value 7778 \
+    --maxplayers 16 \
+    --nostoptime 1.0
