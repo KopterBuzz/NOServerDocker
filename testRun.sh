@@ -1,6 +1,7 @@
 sudo docker run \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
+    -v "$(pwd)/missions":/missions \
     -v "$(pwd)/replays":/replays noserver \
     --modded true \
     --name "DOCKER TEST 123" \

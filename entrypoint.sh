@@ -24,7 +24,7 @@ MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
 
-MISSIONS_DIR=$(find $(pwd) -maxdepth 1 -type d | grep missions)
+MISSIONS_DIR="/missions"
 
 # Parse args
 while [[ "$#" -gt 0 ]]; do

@@ -12,9 +12,9 @@ WORKDIR /server
 COPY ./server /server
 
 WORKDIR /
-COPY ./missions /missions
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 VOLUME ["/replays"]
+VOLUME ["/missions"]
 ENTRYPOINT ["/entrypoint.sh"]
