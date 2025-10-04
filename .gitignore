@@ -1,1 +1,5 @@
-server
+server/*
+replays/*
+missions/*
+bepinex/*
+banlist/*
