@@ -10,3 +10,7 @@
 - install any missions you may need into the missions directory
 - run build.sh, it will download all dependencies and build the docker image locally
 - testRun.sh demonstrates how to configure and launch a container with the image
+
+# TODO
+- rcon management
+- ban management
