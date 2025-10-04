@@ -1,0 +1,11 @@
+PWD=$(pwd)
+SERVERDIR="${PWD}/server"
+rm -r ${SERVERDIR} -f
+mkdir ${SERVERDIR}
+
+sudo add-apt-repository -y multiverse 
+sudo apt update
+echo steam steam/question select "I AGREE" | sudo debconf-set-selections
+sudo apt install steamcmd unzip
+echo ${SERVERDIR}
+steamcmd +force_install_dir ${SERVERDIR} +login anonymous +app_update 3930080 validate +quit

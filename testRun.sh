@@ -1,0 +1,1 @@
+sudo docker run -p 7777-7778:7777-7778/udp -p 7777-7778:7777-7778/tcp noserver --name "DOCKER TEST 123" --password "why" --port-override true --port-value 7777 --query-override true --query-value 7778
