@@ -23,6 +23,7 @@ PASSWORD=""
 MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
+RCON_PORT = "7779"
 
 MISSIONS_DIR="/missions"
 
@@ -39,11 +40,14 @@ while [[ "$#" -gt 0 ]]; do
         --maxplayers) MAX_PLAYERS="$2"; shift ;;
         --nostoptime) NO_PLAYER_STOP_TIME="$2"; shift ;;
         --output) OUTPUT_FILE="$2"; shift ;;
+        --rconPort) RCON_PORT="$2"; shift ;;
         *) echo "Unknown parameter: $1"; exit 1 ;;
     esac
     shift
 done
 
+
+SERVER_LOG_PATH="./server/"$SERVER_NAME"_server.log"
 # --------------------------------------------------------------------
 # Generate MissionRotation JSON array
 # --------------------------------------------------------------------
@@ -125,4 +129,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh
+./run_bepinex.sh -limitframerate 30 -logFile $SERVER_LOG_PATH -ServerRemoteCommands $RCON_PORT
