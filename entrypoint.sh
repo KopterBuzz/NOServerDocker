@@ -125,11 +125,12 @@ jq -n \
 echo "JSON configuration saved to: $OUTPUT_FILE"
 cat ./server/DedicatedServerConfig.json
 
-sed -i -e 's/7779/$RCON_PORT/g' ./Nuclear-Option-Server-Tools/ServerControlPanel/config.py
-chmod +x ./Nuclear-Option-Server-Tools/ServerControlPanel/run.sh
-./Nuclear-Option-Server-Tools/ServerControlPanel/run.sh &
+cd ./rcon/ServerControlPanel
+sed -i -e 's/7779/$RCON_PORT/g' config.py
+chmod +x run.sh
+./run.sh &
 
-cd ./server
+cd ../../server
 echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
