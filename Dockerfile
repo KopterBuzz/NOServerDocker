@@ -15,8 +15,8 @@ RUN cp -r /server/linux64/* /server -f
 RUN wget -O "BepInEx_linux_x64_5.4.23.3.zip" "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.3/BepInEx_linux_x64_5.4.23.3.zip"
 RUN unzip -o "BepInEx_linux_x64_5.4.23.3.zip" -d "/server"
 RUN rm "BepInEx_linux_x64_5.4.23.3.zip"
-RUN git clone https://github.com/Shockfront-Studios/Nuclear-Option-Server-Tools.git rcon
-RUN ls rcon
+RUN git clone https://github.com/Shockfront-Studios/Nuclear-Option-Server-Tools.git /rcon
+RUN ls /rcon
 RUN apt-get purge git -y
 WORKDIR /server
 COPY ./server /server
