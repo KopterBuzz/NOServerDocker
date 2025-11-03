@@ -1,5 +1,5 @@
 FROM steamcmd/steamcmd:latest
-EXPOSE 7779
+EXPOSE 5000
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=US/Eastern
 
