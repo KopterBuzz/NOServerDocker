@@ -125,7 +125,6 @@ jq -n \
 echo "JSON configuration saved to: $OUTPUT_FILE"
 cat ./server/DedicatedServerConfig.json
 
-sed -i -e 's/7779/$RCON_PORT/g' ./rcon/ServerControlPanel/config.py
 chmod +x ./rcon/ServerControlPanel/run.sh
 cd ./rcon/ServerControlPanel
 ./run.sh &
@@ -135,4 +134,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands $RCON_PORT -logFile server.log
+./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands 7779 -logFile server.log
