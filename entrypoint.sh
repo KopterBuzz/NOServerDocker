@@ -56,7 +56,7 @@ MISSION_ROTATION_JSON=""
 
 if [[ -d "$MISSIONS_DIR" && $(find "$MISSIONS_DIR" -mindepth 1 -type d | wc -l) -gt 0 ]]; then
     # Enumerate subdirectories in ./missions
-    echo "📂 Found custom missions in $MISSIONS_DIR — generating MissionRotation..."
+    echo "Found custom missions in $MISSIONS_DIR — generating MissionRotation..."
     MISSION_ROTATION_JSON=$(find "$MISSIONS_DIR" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | jq -R -s '
         split("\n") | map(select(length > 0)) |
         map({
@@ -125,14 +125,9 @@ jq -n \
 echo "JSON configuration saved to: $OUTPUT_FILE"
 cat ./server/DedicatedServerConfig.json
 
-#cd ./rcon/ServerControlPanel
-#sed -i -e 's/7779/$RCON_PORT/g' config.py
-#chmod +x run.sh
-#./run.sh &
-
-cd ../../server
+cd ./server
 echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate 60 -logFile $SERVER_LOG_PATH -ServerRemoteCommands $RCON_PORT &
+./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands $RCON_PORT
