@@ -24,7 +24,7 @@ PASSWORD=""
 MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
-RCON_PORT = "7779"
+RCON_PORT= "7779"
 
 MISSIONS_DIR="/missions"
 
