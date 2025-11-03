@@ -24,7 +24,7 @@ PASSWORD=""
 MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
-RCON_PORT= "7779"
+RCON_PORT="7779"
 
 MISSIONS_DIR="/missions"
 
@@ -130,4 +130,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate 30 -logFile $SERVER_LOG_PATH -ServerRemoteCommands $RCON_PORT
+./run_bepinex.sh -limitframerate 30 -logFile $SERVER_LOG_PATH -ServerRemoteCommands "$RCON_PORT"
