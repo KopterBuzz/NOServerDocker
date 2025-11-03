@@ -21,9 +21,9 @@ sudo docker run -d \
     --name "7ep3s PvP #2" \
     --password ""\
     --port-override true \
-    --port-value 7777 \
+    --port-value 7780 \
     --query-override true \
-    --query-value 7778 \
+    --query-value 7781 \
     --maxplayers 16 \
     --nostoptime 1.0
 sudo docker run -d \
@@ -35,8 +35,8 @@ sudo docker run -d \
     --name "7ep3s PvP #3" \
     --password ""\
     --port-override true \
-    --port-value 7777 \
+    --port-value 7783 \
     --query-override true \
-    --query-value 7778 \
+    --query-value 7784 \
     --maxplayers 16 \
     --nostoptime 1.0
