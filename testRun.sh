@@ -1,6 +1,7 @@
 sudo docker run -d \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
+    -p 7791-7791:7791-7791/tcp \
     -v "$(pwd)/missions":/missions \
     -v "$(pwd)/replays":/replays noserver \
     --modded true \
@@ -12,10 +13,11 @@ sudo docker run -d \
     --query-value 7778 \
     --maxplayers 16 \
     --nostoptime 1.0 \
-    --rconPort 7779
+    --rconPort 7791
 sudo docker run -d \
     -p 7780-7781:7780-7781/udp \
     -p 7780-7781:7780-7781/tcp \
+    -p 7792-7792:7792-7792/tcp \
     -v "$(pwd)/missions":/missions \
     -v "$(pwd)/replays":/replays noserver \
     --modded true \
@@ -27,10 +29,11 @@ sudo docker run -d \
     --query-value 7781 \
     --maxplayers 16 \
     --nostoptime 1.0 \
-    --rconPort 7782
+    --rconPort 7792
 sudo docker run -d \
     -p 7783-7784:7783-7784/udp \
     -p 7783-7784:7783-7784/tcp \
+    -p 7793-7793:7793-7793/tcp \
     -v "$(pwd)/missions":/missions \
     -v "$(pwd)/replays":/replays noserver \
     --modded true \
@@ -42,4 +45,4 @@ sudo docker run -d \
     --query-value 7784 \
     --maxplayers 16 \
     --nostoptime 1.0 \
-    --rconPort 7785
+    --rconPort 7793
