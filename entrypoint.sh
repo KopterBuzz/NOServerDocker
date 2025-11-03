@@ -48,7 +48,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 
-SERVER_LOG_PATH="./server/"$SERVER_NAME"_server.log"
+SERVER_LOG_PATH="server/server.log"
 # --------------------------------------------------------------------
 # Generate MissionRotation JSON array
 # --------------------------------------------------------------------
