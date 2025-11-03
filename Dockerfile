@@ -26,6 +26,9 @@ WORKDIR /
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
+WORKDIR /rcon
+COPY ./rcon /rcon
+
 VOLUME ["/replays"]
 VOLUME ["/missions"]
 ENTRYPOINT ["/entrypoint.sh"]
