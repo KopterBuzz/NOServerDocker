@@ -8,7 +8,8 @@
 #   --password "secret" \
 #   --maxplayers 8 \
 #   --nostoptime 30.0 \
-#   --output ./server_config.json
+#   --output ./server_config.json \
+#   --rconPort 7779
 
 set -e
 

@@ -11,7 +11,8 @@ sudo docker run -d \
     --query-override true \
     --query-value 7778 \
     --maxplayers 16 \
-    --nostoptime 1.0
+    --nostoptime 1.0 \
+    --rconPort 7779
 sudo docker run -d \
     -p 7780-7781:7780-7781/udp \
     -p 7780-7781:7780-7781/tcp \
@@ -25,7 +26,8 @@ sudo docker run -d \
     --query-override true \
     --query-value 7781 \
     --maxplayers 16 \
-    --nostoptime 1.0
+    --nostoptime 1.0 \
+    --rconPort 7782
 sudo docker run -d \
     -p 7783-7784:7783-7784/udp \
     -p 7783-7784:7783-7784/tcp \
@@ -39,4 +41,5 @@ sudo docker run -d \
     --query-override true \
     --query-value 7784 \
     --maxplayers 16 \
-    --nostoptime 1.0
+    --nostoptime 1.0 \
+    --rconPort 7785
