@@ -130,4 +130,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate 30 -logFile $SERVER_LOG_PATH -ServerRemoteCommands "$RCON_PORT"
+./run_bepinex.sh -limitframerate 30 -logFile $SERVER_LOG_PATH -ServerRemoteCommands $RCON_PORT
