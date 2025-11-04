@@ -23,7 +23,9 @@ WORKDIR /rcon
 COPY ./rcon /rcon
 WORKDIR /rcon/ServerControlPanel
 RUN chmod +x install.sh
-RUN install.sh
+RUN python3 -m venv venv
+RUN source venv/bin/activate
+RUN pip install -r requirements.txt
 
 WORKDIR /
 ADD entrypoint.sh /entrypoint.sh
