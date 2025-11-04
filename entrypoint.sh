@@ -123,14 +123,14 @@ jq -n \
   "NoPlayerStopTime": $noStopTime,
   "RotationType": 0,
   "BanListPaths": [
-    "/banlist/banlist.txt"
+    "banlist/banlist.txt"
   ],
   "MissionRotation": $missionRotation
 }' > "$OUTPUT_FILE"
 
 echo "JSON configuration saved to: $OUTPUT_FILE"
 #cat ./server/DedicatedServerConfig.json
-
+touch banlist/banlist.txt
 DEF_RCON_PORT=5000
 DEF_RCON_PASSWORD=changeme
 cd ./rcon/ServerControlPanel
