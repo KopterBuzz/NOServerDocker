@@ -12,6 +12,7 @@ RUN apt-get install wget -y
 RUN apt-get install python3 -y
 RUN apt-get install python3-venv -y
 RUN apt-get install python3-pip -y
+RUN apt-get install python3-flask -y
 RUN steamcmd +force_install_dir /server +login anonymous +app_update 3930080 validate +quit
 RUN cp -r /server/linux64/* /server -f
 RUN wget -O "BepInEx_linux_x64_5.4.23.3.zip" "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.3/BepInEx_linux_x64_5.4.23.3.zip"
@@ -25,11 +26,6 @@ COPY ./bepinex_preconfig /server
 WORKDIR /rcon
 COPY ./rcon /rcon
 WORKDIR /rcon/ServerControlPanel
-RUN chmod +x install.sh
-RUN python3 -m venv venv
-RUN source venv/bin/activate
-RUN apt-get install python3-flask -y
-#RUN pip install -r requirements.txt
 
 WORKDIR /
 ADD entrypoint.sh /entrypoint.sh
