@@ -2,10 +2,11 @@ sudo docker run \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
     -p 7779-7779:7779-7779/tcp \
+    -p 50000-50000:50000-50000/tcp \
     -v "$(pwd)/missions":/missions \
     -v "$(pwd)/replays":/replays noserver \
     --modded true \
-    --name "7ep3s PvP #1" \
+    --name "7ep3s TEST" \
     --password ""\
     --port-override true \
     --port-value 7777 \
