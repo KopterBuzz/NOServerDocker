@@ -127,7 +127,7 @@ cat ./server/DedicatedServerConfig.json
 
 chmod +x ./rcon/ServerControlPanel/run.sh
 cd ./rcon/ServerControlPanel
-./run.sh
+python app.py
 
 #cd ../../server
 #echo "missions folder content: "
