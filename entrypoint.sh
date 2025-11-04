@@ -131,8 +131,8 @@ cat ./server/DedicatedServerConfig.json
 DEF_RCON_PORT = 5000
 DEF_RCON_PASSWORD = "changeme"
 cd ./rcon/ServerControlPanel
-sed -i -e "s|$DEF_RCON_PORT|$RCON_PORT|g" ./rcon/ServerControlPanel/config.py
-sed -i -e "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./rcon/ServerControlPanel/config.py
+sed "s|$DEF_RCON_PORT|$RCON_PORT|g" ./rcon/ServerControlPanel/config.py
+sed "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./rcon/ServerControlPanel/config.py
 python3 app.py &
 
 cd ../../server
