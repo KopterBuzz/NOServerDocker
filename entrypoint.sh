@@ -128,8 +128,8 @@ jq -n \
 echo "JSON configuration saved to: $OUTPUT_FILE"
 cat ./server/DedicatedServerConfig.json
 
-DEF_RCON_PORT = 5000
-DEF_RCON_PASSWORD = "changeme"
+DEF_RCON_PORT=5000
+DEF_RCON_PASSWORD="changeme"
 cd ./rcon/ServerControlPanel
 sed "s|$DEF_RCON_PORT|$RCON_PORT|g" ./rcon/ServerControlPanel/config.py
 sed "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./rcon/ServerControlPanel/config.py
