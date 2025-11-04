@@ -21,6 +21,9 @@ COPY ./bepinex_preconfig /server
 
 WORKDIR /rcon
 COPY ./rcon /rcon
+WORKDIR /rcon/ServerControlPanel
+RUN chmod +x install.sh
+RUN install.sh
 
 WORKDIR /
 ADD entrypoint.sh /entrypoint.sh
