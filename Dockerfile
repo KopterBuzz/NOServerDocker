@@ -30,4 +30,5 @@ ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 VOLUME ["/replays"]
 VOLUME ["/missions"]
+VOLUME ["/banlist"]
 ENTRYPOINT ["/entrypoint.sh"]

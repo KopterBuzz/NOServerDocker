@@ -122,6 +122,9 @@ jq -n \
   "MaxPlayers": $maxPlayers,
   "NoPlayerStopTime": $noStopTime,
   "RotationType": 0,
+  "BanListPaths": [
+    "/banlist/banlist.txt"
+  ],
   "MissionRotation": $missionRotation
 }' > "$OUTPUT_FILE"
 
