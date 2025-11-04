@@ -126,18 +126,18 @@ jq -n \
 }' > "$OUTPUT_FILE"
 
 echo "JSON configuration saved to: $OUTPUT_FILE"
-cat ./server/DedicatedServerConfig.json
+#cat ./server/DedicatedServerConfig.json
 
 DEF_RCON_PORT=5000
 DEF_RCON_PASSWORD=changeme
 cd ./rcon/ServerControlPanel
 sed -i "s|$DEF_RCON_PORT|$RCON_PORT|g" ./config.py
 sed -i "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./config.py
-python3 app.py
+python3 app.py &
 
-#cd ../../server
-#echo "missions folder content: "
-#echo $MISSIONS_DIR
-#ls -l $MISSIONS_DIR
-#chmod +x ./run_bepinex.sh
-#./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands 7779 -logFile server.log
+cd ../../server
+echo "missions folder content: "
+echo $MISSIONS_DIR
+ls -l $MISSIONS_DIR
+chmod +x ./run_bepinex.sh
+./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands 7779 -logFile server.log &
