@@ -14,4 +14,5 @@ sudo docker run \
     --query-value 7778 \
     --maxplayers 16 \
     --nostoptime 1.0 \
-    --rconPort 7779
+    --rconPort 50000 \
+    --rconPassword "szopdki"

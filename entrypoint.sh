@@ -9,7 +9,8 @@
 #   --maxplayers 8 \
 #   --nostoptime 30.0 \
 #   --output ./server_config.json \
-#   --rconPort 7779
+#   --rconPort 7779 \
+#   --rconPassword 543sdfg
 
 set -e
 
@@ -21,10 +22,11 @@ PORT_VALUE=7777
 QUERY_OVERRIDE=false
 QUERY_VALUE=7778
 PASSWORD=""
+RCON_PASSWORD=""
 MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
-RCON_PORT="7779"
+RCON_PORT="5000"
 
 MISSIONS_DIR="/missions"
 
@@ -42,6 +44,7 @@ while [[ "$#" -gt 0 ]]; do
         --nostoptime) NO_PLAYER_STOP_TIME="$2"; shift ;;
         --output) OUTPUT_FILE="$2"; shift ;;
         --rconPort) RCON_PORT="$2"; shift ;;
+        --rconPassword) RCON_PASSWORD="$2"; shift ;;
         *) echo "Unknown parameter: $1"; exit 1 ;;
     esac
     shift
@@ -125,8 +128,11 @@ jq -n \
 echo "JSON configuration saved to: $OUTPUT_FILE"
 cat ./server/DedicatedServerConfig.json
 
-chmod +x ./rcon/ServerControlPanel/run.sh
+DEF_RCON_PORT = 5000
+DEF_RCON_PASSWORD = "changeme"
 cd ./rcon/ServerControlPanel
+sed -i -e "s|$DEF_RCON_PORT|$RCON_PORT|g" ./rcon/ServerControlPanel/config.py
+sed -i -e "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./rcon/ServerControlPanel/config.py
 python3 app.py &
 
 cd ../../server
