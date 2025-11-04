@@ -123,7 +123,7 @@ jq -n \
   "NoPlayerStopTime": $noStopTime,
   "RotationType": 0,
   "BanListPaths": [
-    "banlist/banlist.txt"
+    "/banlist/banlist.txt"
   ],
   "MissionRotation": $missionRotation
 }' > "$OUTPUT_FILE"
