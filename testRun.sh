@@ -5,7 +5,7 @@ sudo docker run \
     -p 50000-50000:50000-50000/tcp \
     -v "$(pwd)/missions":/missions \
     -v "$(pwd)/banlist":/banlist \
-    -v "$(pwd)/replays":/replays\
+    -v "$(pwd)/replays":/replays \
     --modded true \
     --name "7ep3s TEST" \
     --password ""\
