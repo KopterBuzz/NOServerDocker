@@ -127,11 +127,11 @@ cat ./server/DedicatedServerConfig.json
 
 chmod +x ./rcon/ServerControlPanel/run.sh
 cd ./rcon/ServerControlPanel
-python app.py
+python3 app.py &
 
-#cd ../../server
-#echo "missions folder content: "
-#echo $MISSIONS_DIR
-#ls -l $MISSIONS_DIR
-#chmod +x ./run_bepinex.sh
-#./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands 7779 -logFile server.log
+cd ../../server
+echo "missions folder content: "
+echo $MISSIONS_DIR
+ls -l $MISSIONS_DIR
+chmod +x ./run_bepinex.sh
+./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands 7779 -logFile server.log
