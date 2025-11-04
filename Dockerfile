@@ -28,7 +28,8 @@ WORKDIR /rcon/ServerControlPanel
 RUN chmod +x install.sh
 RUN python3 -m venv venv
 RUN source venv/bin/activate
-RUN pip install -r requirements.txt
+RUN apt-get install python3-flask
+#RUN pip install -r requirements.txt
 
 WORKDIR /
 ADD entrypoint.sh /entrypoint.sh
