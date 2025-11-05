@@ -13,9 +13,10 @@ sudo docker run -d \
     --query-override true \
     --query-value 7778 \
     --maxplayers 16 \
-    --nostoptime 7200.0 \
+    --nostoptime 7202.0 \
     --rconPort 50000 \
-    --rconPassword "szopdki_ketszer"
+    --rconPassword "defaultpassword" \
+    --fpsLimit 30
 sudo docker run -d \
     -p 7780-7781:7780-7781/udp \
     -p 7780-7781:7780-7781/tcp \
@@ -31,9 +32,10 @@ sudo docker run -d \
     --query-override true \
     --query-value 7781 \
     --maxplayers 16 \
-    --nostoptime 7200.0 \
+    --nostoptime 7202.0 \
     --rconPort 50001 \
-    --rconPassword "szopdki_ketszer"
+    --rconPassword "defaultpassword" \
+    --fpsLimit 30
 sudo docker run -d \
     -p 7782-7783:7782-7783/udp \
     -p 7782-7783:7782-7783/tcp \
@@ -49,9 +51,10 @@ sudo docker run -d \
     --query-override true \
     --query-value 7783 \
     --maxplayers 16 \
-    --nostoptime 7200.0 \
+    --nostoptime 7202.0 \
     --rconPort 50002 \
-    --rconPassword "szopdki_ketszer"
+    --rconPassword "defaultpassword" \
+    --fpsLimit 30
 sudo docker run -d \
     -p 7784-7785:7784-7785/udp \
     -p 7784-7785:7784-7785/tcp \
@@ -67,6 +70,7 @@ sudo docker run -d \
     --query-override true \
     --query-value 7785 \
     --maxplayers 16 \
-    --nostoptime 7200.0 \
+    --nostoptime 7202.0 \
     --rconPort 50003 \
-    --rconPassword "szopdki_ketszer"
+    --rconPassword "defaultpassword" \
+    --fpsLimit 30
