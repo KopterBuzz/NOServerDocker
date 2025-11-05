@@ -1,7 +1,6 @@
 sudo docker run \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
-    -p 7779-7779:7779-7779/tcp \
     -p 50000-50000:50000-50000/tcp \
     -v "$(pwd)/missions":/missions \
     -v "$(pwd)/banlist":/banlist \
