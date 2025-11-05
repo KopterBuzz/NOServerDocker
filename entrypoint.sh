@@ -27,6 +27,7 @@ MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
 RCON_PORT="5000"
+FPS_LIMIT=30
 
 MISSIONS_DIR="/missions"
 
@@ -45,6 +46,7 @@ while [[ "$#" -gt 0 ]]; do
         --output) OUTPUT_FILE="$2"; shift ;;
         --rconPort) RCON_PORT="$2"; shift ;;
         --rconPassword) RCON_PASSWORD="$2"; shift ;;
+        --fpsLimit) FPS_LIMIT="$2"; shift ;;
         *) echo "Unknown parameter: $1"; exit 1 ;;
     esac
     shift
@@ -143,4 +145,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate 60 -ServerRemoteCommands 7779 -logFile server.log
+./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile server.log
