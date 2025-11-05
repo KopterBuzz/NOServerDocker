@@ -1,5 +1,5 @@
 sudo docker run -d \
-    --cpuset-cpus=0,3 \
+    --cpuset-cpus=0,1,2,3 \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
     -p 50000-50000:50000-50000/tcp \
@@ -17,9 +17,9 @@ sudo docker run -d \
     --nostoptime 7202.0 \
     --rconPort 50000 \
     --rconPassword "defaultpassword" \
-    --fpsLimit 30
+    --fpsLimit 60
 sudo docker run -d \
-    --cpuset-cpus=4,7 \
+    --cpuset-cpus=4,5,6,7 \
     -p 7780-7781:7780-7781/udp \
     -p 7780-7781:7780-7781/tcp \
     -p 50001-50001:50001-50001/tcp \
@@ -37,9 +37,9 @@ sudo docker run -d \
     --nostoptime 7202.0 \
     --rconPort 50001 \
     --rconPassword "defaultpassword" \
-    --fpsLimit 30
+    --fpsLimit 60
 sudo docker run -d \
-    --cpuset-cpus=8,11 \
+    --cpuset-cpus=8,9,10,11 \
     -p 7782-7783:7782-7783/udp \
     -p 7782-7783:7782-7783/tcp \
     -p 50002-50002:50002-50002/tcp \
@@ -57,9 +57,9 @@ sudo docker run -d \
     --nostoptime 7202.0 \
     --rconPort 50002 \
     --rconPassword "defaultpassword" \
-    --fpsLimit 30
+    --fpsLimit 60
 sudo docker run -d \
-    --cpuset-cpus=12,15 \
+    --cpuset-cpus=12,13,14,15 \
     -p 7784-7785:7784-7785/udp \
     -p 7784-7785:7784-7785/tcp \
     -p 50003-50003:50003-50003/tcp \
@@ -77,4 +77,4 @@ sudo docker run -d \
     --nostoptime 7202.0 \
     --rconPort 50003 \
     --rconPassword "defaultpassword" \
-    --fpsLimit 30
+    --fpsLimit 60
