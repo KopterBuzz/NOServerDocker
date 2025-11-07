@@ -3,10 +3,11 @@ INDEX=1
 SERVERPORT=7780
 QUERYPORT=7781
 RCONPORT=50000
-
+CPU1=0
+CPU2=1
 for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     sudo docker run -d \
-        --cpuset-cpus=0,1 \
+        --cpuset-cpus=$CPU1,$CPU2 \
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/udp \
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/tcp \
         -p $RCONPORT-$RCONPORT:$RCONPORT-$RCONPORT/tcp \
@@ -29,5 +30,7 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     ((SERVERPORT=$SERVERPORT + 2))
     ((QUERYPORT=$QUERYPORT + 2))
     ((RCONPORT++))
+    ((CPU1=$CPU1+2))
+    ((CPU2=$CPU2+2))
 done
     
