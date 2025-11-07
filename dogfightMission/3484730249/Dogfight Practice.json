@@ -1,0 +1,1958 @@
+{
+    "JsonVersion": 3,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 1,
+        "TypeName": "GameWorldPrefab",
+        "Path": "Terrain1"
+    },
+    "missionSettings": {
+        "description": "",
+        "Tags": [],
+        "playerMode": 0,
+        "allowRespawn": true,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.0,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 10.0,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.0,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0
+    },
+    "aircraft": [],
+    "vehicles": [
+        {
+            "type": "HLT-M",
+            "faction": "Boscali",
+            "UniqueName": "HLT-M",
+            "globalPosition": {
+                "x": 4136.94287109375,
+                "y": 23.70090675354004,
+                "z": 6162.94189453125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9411759972572327,
+                "z": 0.0,
+                "w": -0.33791670203208926
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT",
+            "globalPosition": {
+                "x": 4141.806640625,
+                "y": 23.700897216796876,
+                "z": 6161.0537109375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9411759972572327,
+                "z": 0.0,
+                "w": -0.33791670203208926
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-R",
+            "faction": "Primeva",
+            "UniqueName": "HLT-R",
+            "globalPosition": {
+                "x": 11907.2255859375,
+                "y": 187.4573974609375,
+                "z": 8305.609375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-R",
+            "faction": "Boscali",
+            "UniqueName": "HLT-R_1",
+            "globalPosition": {
+                "x": 4694.50927734375,
+                "y": 11.377975463867188,
+                "z": 17272.48828125
+            },
+            "rotation": {
+                "x": 0.06703092157840729,
+                "y": 0.9344507455825806,
+                "z": -0.181316539645195,
+                "w": 0.29905351996421816
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        }
+    ],
+    "ships": [],
+    "buildings": [
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small",
+            "globalPosition": {
+                "x": 12610.900390625,
+                "y": 1500.0,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1",
+            "globalPosition": {
+                "x": 12617.900390625,
+                "y": 1509.699951171875,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 50.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "Primeva Spawn",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall",
+            "globalPosition": {
+                "x": 11961.4169921875,
+                "y": 54.399993896484378,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "COIN",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall_1",
+            "globalPosition": {
+                "x": 11967.130859375,
+                "y": 54.399993896484378,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "trainer",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall_2",
+            "globalPosition": {
+                "x": 11989.646484375,
+                "y": 54.399993896484378,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "Fighter1",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall_3",
+            "globalPosition": {
+                "x": 11991.412109375,
+                "y": 54.399993896484378,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "SmallFighter1",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall_4",
+            "globalPosition": {
+                "x": 12011.7001953125,
+                "y": 54.400001525878909,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "QuadVTOL1",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall_5",
+            "globalPosition": {
+                "x": 11958.1943359375,
+                "y": 54.399993896484378,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "AttackHelo1",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "factory_tall",
+            "faction": "Primeva",
+            "UniqueName": "factory_tall_6",
+            "globalPosition": {
+                "x": 12018.5341796875,
+                "y": 54.39990234375,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "Multirole1",
+                "productionTime": 30.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Helipad",
+            "globalPosition": {
+                "x": 12540.7998046875,
+                "y": 261.5,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "Primeva Spawn",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "hangar_med",
+            "globalPosition": {
+                "x": -3000.0,
+                "y": 1516.199951171875,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "Spawn",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "hangar_med",
+            "faction": "Boscali",
+            "UniqueName": "hangar_med_1",
+            "globalPosition": {
+                "x": -3044.990234375,
+                "y": 1516.199951171875,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "Spawn",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_flat",
+            "faction": "",
+            "UniqueName": "Platform_flat_8",
+            "globalPosition": {
+                "x": -3022.39990234375,
+                "y": 1529.5999755859375,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "Neutral",
+            "UniqueName": "Platform_large",
+            "globalPosition": {
+                "x": 4121.2001953125,
+                "y": 12.800000190734864,
+                "z": 6139.7001953125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.33791670203208926,
+                "z": 0.0,
+                "w": 0.9411759972572327
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "Neutral",
+            "UniqueName": "Platform_large_1",
+            "globalPosition": {
+                "x": 4075.199951171875,
+                "y": 80.0,
+                "z": 6177.7001953125
+            },
+            "rotation": {
+                "x": 0.2389432042837143,
+                "y": -0.2389432042837143,
+                "z": 0.665511965751648,
+                "w": -0.665511965751648
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "Neutral",
+            "UniqueName": "Platform_large_2",
+            "globalPosition": {
+                "x": 4159.10009765625,
+                "y": 80.0,
+                "z": 6185.7001953125
+            },
+            "rotation": {
+                "x": 0.665511965751648,
+                "y": -0.2389432042837143,
+                "z": -0.2389432042837143,
+                "w": -0.665511965751648
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "Neutral",
+            "UniqueName": "Platform_large_3",
+            "globalPosition": {
+                "x": 4167.0,
+                "y": 80.0,
+                "z": 6101.89990234375
+            },
+            "rotation": {
+                "x": 0.2389432042837143,
+                "y": 0.2389432042837143,
+                "z": 0.665511965751648,
+                "w": 0.665511965751648
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_4",
+            "globalPosition": {
+                "x": 4121.2001953125,
+                "y": 139.5,
+                "z": 6139.7001953125
+            },
+            "rotation": {
+                "x": 0.33791670203208926,
+                "y": -1.4770808576258787e-8,
+                "z": 0.9411759972572327,
+                "w": -4.114010820899239e-8
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Boscali",
+            "UniqueName": "Helipad_1",
+            "globalPosition": {
+                "x": 4088.01708984375,
+                "y": 23.300048828125,
+                "z": 6099.44580078125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9411759972572327,
+                "z": 0.0,
+                "w": -0.33791670203208926
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "Spawn",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Neutral",
+            "UniqueName": "shelter1_1",
+            "globalPosition": {
+                "x": 4139.65625,
+                "y": 22.799999237060548,
+                "z": 6162.08935546875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9411759972572327,
+                "z": 0.0,
+                "w": -0.33791670203208926
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 50.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_5",
+            "globalPosition": {
+                "x": 3948.10009765625,
+                "y": 80.0,
+                "z": 6023.5
+            },
+            "rotation": {
+                "x": 0.2389432042837143,
+                "y": -0.2389432042837143,
+                "z": 0.665511965751648,
+                "w": -0.665511965751648
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_6",
+            "globalPosition": {
+                "x": 4039.75,
+                "y": 80.0,
+                "z": 5947.52294921875
+            },
+            "rotation": {
+                "x": 0.2389432042837143,
+                "y": 0.2389432042837143,
+                "z": 0.665511965751648,
+                "w": 0.665511965751648
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_7",
+            "globalPosition": {
+                "x": 3993.946044921875,
+                "y": 139.5,
+                "z": 5985.32861328125
+            },
+            "rotation": {
+                "x": 0.33791670203208926,
+                "y": -1.4770808576258787e-8,
+                "z": 0.9411759972572327,
+                "w": -4.114010820899239e-8
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_8",
+            "globalPosition": {
+                "x": 12660.7998046875,
+                "y": 250.0,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_9",
+            "globalPosition": {
+                "x": 12660.7998046875,
+                "y": 250.0,
+                "z": 8656.458984375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_10",
+            "globalPosition": {
+                "x": 12660.7998046875,
+                "y": 250.0,
+                "z": 8066.89990234375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_11",
+            "globalPosition": {
+                "x": 12660.7998046875,
+                "y": 250.0,
+                "z": 8263.4228515625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_12",
+            "globalPosition": {
+                "x": 12660.7998046875,
+                "y": 250.0,
+                "z": 8853.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_slope",
+            "faction": "",
+            "UniqueName": "Platform_slope",
+            "globalPosition": {
+                "x": 12563.7001953125,
+                "y": 1500.039794921875,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_1",
+            "globalPosition": {
+                "x": 12540.7998046875,
+                "y": 250.1999969482422,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_5",
+            "globalPosition": {
+                "x": 12540.7998046875,
+                "y": 200.5,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_6",
+            "globalPosition": {
+                "x": 12540.7998046875,
+                "y": 150.85549926757813,
+                "z": 8459.900390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_2",
+            "globalPosition": {
+                "x": 12540.8154296875,
+                "y": 250.20001220703126,
+                "z": 8413.4365234375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_3",
+            "globalPosition": {
+                "x": 12540.8330078125,
+                "y": 250.20001220703126,
+                "z": 8506.369140625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_13",
+            "globalPosition": {
+                "x": 12660.7998046875,
+                "y": 250.0,
+                "z": 7870.5615234375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_14",
+            "globalPosition": {
+                "x": 12660.80078125,
+                "y": 249.9998779296875,
+                "z": 9049.3642578125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7071068286895752,
+                "z": 0.0,
+                "w": -0.7071068286895752
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_15",
+            "globalPosition": {
+                "x": 12051.400390625,
+                "y": 85.0,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": -0.5,
+                "y": 0.5,
+                "z": -0.5,
+                "w": -0.5
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_16",
+            "globalPosition": {
+                "x": 11992.2001953125,
+                "y": 85.0,
+                "z": 8366.099609375
+            },
+            "rotation": {
+                "x": 0.5,
+                "y": 0.5,
+                "z": -0.5,
+                "w": -0.5
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_17",
+            "globalPosition": {
+                "x": 11932.67578125,
+                "y": 85.0,
+                "z": 8306.400390625
+            },
+            "rotation": {
+                "x": -0.5,
+                "y": -0.5,
+                "z": -0.5,
+                "w": 0.5
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_18",
+            "globalPosition": {
+                "x": 11992.2001953125,
+                "y": 85.0,
+                "z": 8247.0712890625
+            },
+            "rotation": {
+                "x": 0.5,
+                "y": -0.5,
+                "z": -0.5,
+                "w": 0.5
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Platform_large",
+            "faction": "",
+            "UniqueName": "Platform_large_19",
+            "globalPosition": {
+                "x": 11992.0302734375,
+                "y": 145.68743896484376,
+                "z": 8306.251953125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 1.0,
+                "w": -4.371138828673793e-8
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        }
+    ],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": false,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 999999995904.0,
+            "playerTaxRate": 0.0,
+            "regularIncome": 0.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 0,
+            "reduceAIPerFriendlyPlayer": 0.029262930154800416,
+            "addAIPerEnemyPlayer": 0.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": true,
+            "preventDonation": false,
+            "supplies": [
+                {
+                    "unitType": "Fighter1",
+                    "count": 1
+                },
+                {
+                    "unitType": "QuadVTOL1",
+                    "count": 1
+                },
+                {
+                    "unitType": "COIN",
+                    "count": 1
+                },
+                {
+                    "unitType": "trainer",
+                    "count": 1
+                },
+                {
+                    "unitType": "SmallFighter1",
+                    "count": 1
+                },
+                {
+                    "unitType": "Multirole1",
+                    "count": 1
+                },
+                {
+                    "unitType": "AttackHelo1",
+                    "count": 1
+                }
+            ],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 0,
+            "reduceAIPerFriendlyPlayer": 0.0011256635189056397,
+            "addAIPerEnemyPlayer": 0.9707372188568115,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": [
+                    "AAM1_double",
+                    "AAM1_double_internal",
+                    "AAM1_internalx3",
+                    "AAM1_single",
+                    "AAM1_single_internal",
+                    "AAM2_double",
+                    "AAM2_double_internal",
+                    "AAM2_single",
+                    "AAM2_single_internal",
+                    "AAM2_triple_internal",
+                    "AGM1_double",
+                    "AGM1_quad",
+                    "AGM1_quad_internal",
+                    "AGM1_single",
+                    "AGM_heavy_internal",
+                    "AGM_heavy_internalx4",
+                    "AGM_heavy_internalx8",
+                    "AGM_heavy_single",
+                    "AGM_heavyx2",
+                    "ARM1_double",
+                    "ARM1_internalx2",
+                    "ARM1_single",
+                    "bomb500_internal",
+                    "bomb500_internalx2",
+                    "bomb500_internalx4",
+                    "bomb500_internalx8",
+                    "bomb500_single",
+                    "bomb_250_1_internalx3",
+                    "bomb_250_1_single",
+                    "bomb_250_1_internal",
+                    "bomb_250_1_triple",
+                    "bomb_demolition_internal",
+                    "bomb_glide1_single",
+                    "bomb_glide1_triple",
+                    "bomb_penetrator1",
+                    "bomb_penetrator1_internalx2",
+                    "bomb_penetrator1_internalx3",
+                    "CruiseMissile1_internal",
+                    "CruiseMissile1_internalx2",
+                    "CruiseMissile1_internalx4",
+                    "CruiseMissile1_internalx6",
+                    "CruiseMissile20kt_internalx2",
+                    "IRMS1_double",
+                    "IRMS1_single",
+                    "JammingPod1",
+                    "laser_EW1",
+                    "nuclearBomb1_internal",
+                    "nuclearBomb1_internalx2",
+                    "nuclearBomb1_internalx4",
+                    "nuclearBomb1_strategic_internal",
+                    "nuclearBomb1_strategic_internalx2",
+                    "nuclearBomb1_strategic_internalx4",
+                    "Radome1",
+                    "RocketPod1_single",
+                    "RocketPod1_triple",
+                    "TailHook_Multirole1",
+                    "TailHook_Trainer",
+                    "AGM1_floorLauncher_QuadVTOL1",
+                    "MunitionsContainerx2",
+                    "LightTruck1x2",
+                    "6x6_1_APCx1",
+                    "6x6_1_AAx1",
+                    "6x6_1_ATx1",
+                    "6x6_1_IFVx1",
+                    "bomb250_internalx18",
+                    "NavalSupplyContainerx2",
+                    "HLT-Rx1",
+                    "AShM2_single",
+                    "AShM2_double",
+                    "AShM1_single",
+                    "AShM1_internal",
+                    "AShM1_internalx2",
+                    "AShM1_internalx4",
+                    "AShM1_internalx6",
+                    "bomb500_double",
+                    "bomb_250_1_internalx2",
+                    "bomb_125_1_single",
+                    "bomb_125_1_double",
+                    "bomb_125_1_triple",
+                    "bomb_glide1_double",
+                    "IRMS1_triple",
+                    "AAM1_triple",
+                    "AAM2_triple",
+                    "bomb250_internalx8",
+                    "bomb500_internalx6",
+                    "AShM1_internalx4 2",
+                    "AGM_heavy_internalx6",
+                    "AGM1_triple",
+                    "bomb500_internalx4 2",
+                    "bomb500_internalx12",
+                    "CruiseMissile1_internalx3",
+                    "76mmSideMount",
+                    "AGM_heavy_double",
+                    "bomb_500_internal",
+                    "bomb_500_internalx2",
+                    "bomb_500_internalx4_flat",
+                    "bomb_500_internalx8",
+                    "bomb_500_single",
+                    "bomb_250_internalx3",
+                    "bomb_250_single",
+                    "bomb_250_internal",
+                    "bomb_250_triple",
+                    "bomb_250_internalx18",
+                    "bomb_500_double",
+                    "AShM1_internalx4_flat",
+                    "bomb_250_internalx2",
+                    "turret_76mm_SideMount",
+                    "bomb_125_single",
+                    "bomb_125_double",
+                    "bomb_125_triple",
+                    "bomb_250_internalx8",
+                    "bomb_500_internalx6",
+                    "AShM1_internalx4_stack",
+                    "bomb_500_internalx4_stack",
+                    "bomb_500_internalx12",
+                    "AGM1_double_compact",
+                    "AGM_heavy_internalx2",
+                    "bomb_125_internalx2_line",
+                    "bomb_125_internalx2",
+                    "bomb_125_internalx4",
+                    "bomb_125_internalx6",
+                    "bomb_125_quad",
+                    "AAM3_single_internal",
+                    "AAM3_double_internal",
+                    "AAM3_triple_internal_flat",
+                    "AAM3_triple_internal_compact",
+                    "AAM3_quad_internal",
+                    "AAM3_single",
+                    "AAM4_single",
+                    "AAM4_double",
+                    "AAM4_single_internal",
+                    "AAM4_double_internal",
+                    "AShM3_internalx2",
+                    "AShM3_internalx4_stack",
+                    "AShM3_internalx4_flat",
+                    "AShM3_single",
+                    "BallisticMissile1_internalx2",
+                    "AAM3_double",
+                    "AAM4_double_internal_compact",
+                    "laser_testingPod",
+                    "Rocket2_4Pod",
+                    "AGM2_6Pod",
+                    "BallisticMissile1_tacNuke_internalx2",
+                    "Rocket2_4Podx3",
+                    "AAM4_triple_internal",
+                    "bomb_demolition_internalx1",
+                    "bomb_demolition_internax2",
+                    "IRMS1_internalx2",
+                    "AGM2_internalx4",
+                    "ECMPod1"
+                ]
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [
+        {
+            "IsOverride": false,
+            "faction": "Primeva",
+            "UniqueName": "Primeva Spawn",
+            "DisplayName": "Primeva Spawn",
+            "Disabled": false,
+            "Capturable": false,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": 12617.900390625,
+                "y": 847.22412109375,
+                "z": 8459.900390625
+            },
+            "SelectionPosition": {
+                "x": 12593.6630859375,
+                "y": 1509.800048828125,
+                "z": 8459.900390625
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [
+                {
+                    "x": 12540.599609375,
+                    "y": 260.0,
+                    "z": 8506.400390625
+                },
+                {
+                    "x": 12540.599609375,
+                    "y": 260.0,
+                    "z": 8413.4833984375
+                }
+            ],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": [
+                {
+                    "Name": "Take off",
+                    "Reversable": false,
+                    "Takeoff": true,
+                    "Landing": false,
+                    "Arrestor": false,
+                    "SkiJump": true,
+                    "Width": 100.0,
+                    "Start": {
+                        "x": 12599.3642578125,
+                        "y": 1509.800048828125,
+                        "z": 8459.900390625
+                    },
+                    "End": {
+                        "x": 12539.794921875,
+                        "y": 1509.800048828125,
+                        "z": 8459.900390625
+                    },
+                    "exitPoints": []
+                },
+                {
+                    "Name": "Landing",
+                    "Reversable": true,
+                    "Takeoff": false,
+                    "Landing": true,
+                    "Arrestor": false,
+                    "SkiJump": false,
+                    "Width": 100.0,
+                    "Start": {
+                        "x": 12660.7998046875,
+                        "y": 260.0,
+                        "z": 7800.06787109375
+                    },
+                    "End": {
+                        "x": 12660.7998046875,
+                        "y": 260.0,
+                        "z": 9126.076171875
+                    },
+                    "exitPoints": []
+                }
+            ]
+        },
+        {
+            "IsOverride": false,
+            "faction": "Boscali",
+            "UniqueName": "Spawn",
+            "DisplayName": "Spawn",
+            "Disabled": false,
+            "Capturable": false,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 1000.0,
+            "Center": {
+                "x": -3022.277099609375,
+                "y": 1528.199951171875,
+                "z": 8459.9638671875
+            },
+            "SelectionPosition": {
+                "x": -3022.39990234375,
+                "y": 1533.4322509765625,
+                "z": 8459.900390625
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        }
+    ],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "START"
+                ]
+            },
+            {
+                "UniqueName": "PRI WP",
+                "Faction": "Primeva",
+                "DisplayName": "PRI WP",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 5.0,
+                        "VectorValue": {
+                            "x": 7380.2998046875,
+                            "y": 1500.0,
+                            "z": 8923.900390625
+                        }
+                    }
+                ],
+                "Outcomes": []
+            }
+        ],
+        "Outcomes": [
+            {
+                "UniqueName": "START",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "PRI WP",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

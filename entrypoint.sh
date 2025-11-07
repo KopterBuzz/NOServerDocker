@@ -11,6 +11,7 @@
 #   --output ./server_config.json \
 #   --rconPort 7779 \
 #   --rconPassword 543sdfg
+#    --rotationType 0
 
 set -e
 
@@ -28,6 +29,7 @@ NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
 RCON_PORT="5000"
 FPS_LIMIT=30
+ROTATION_TYPE=0
 
 MISSIONS_DIR="/missions"
 
@@ -47,6 +49,7 @@ while [[ "$#" -gt 0 ]]; do
         --rconPort) RCON_PORT="$2"; shift ;;
         --rconPassword) RCON_PASSWORD="$2"; shift ;;
         --fpsLimit) FPS_LIMIT="$2"; shift ;;
+        --rotationType) ROTATION_TYPE="$2"; shift ;;
         *) echo "Unknown parameter: $1"; exit 1 ;;
     esac
     shift
@@ -107,6 +110,7 @@ jq -n \
   --arg password "$PASSWORD" \
   --argjson maxPlayers "$MAX_PLAYERS" \
   --argjson noStopTime "$NO_PLAYER_STOP_TIME" \
+  --arg rotationType "$ROTATION_TYPE" \
   --argjson missionRotation "$MISSION_ROTATION_JSON" \
 '{
   "MissionDirectory": $missionsDir,
@@ -123,7 +127,7 @@ jq -n \
   "Password": $password,
   "MaxPlayers": $maxPlayers,
   "NoPlayerStopTime": $noStopTime,
-  "RotationType": 0,
+  "RotationType": $rotationType,
   "BanListPaths": [
     "/banlist/banlist.txt"
   ],
