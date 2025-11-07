@@ -57,8 +57,6 @@ while [[ "$#" -gt 0 ]]; do
     shift
 done
 
-
-SERVER_LOG_PATH="server/server.log"
 # --------------------------------------------------------------------
 # Generate MissionRotation JSON array
 # --------------------------------------------------------------------
@@ -154,4 +152,5 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
+SERVER_NAME="${SERVER_NAME// /_}"
 ./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile "../serverlog/${SERVER_NAME}server.log"
