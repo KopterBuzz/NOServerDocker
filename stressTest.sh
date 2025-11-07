@@ -5,16 +5,17 @@ sudo docker run -d \
     -p 50000-50000:50000-50000/tcp \
     -v "$(pwd)/stressTestMission":/missions \
     -v "$(pwd)/banlist":/banlist \
-    -v "$(pwd)/replays":/replays noserver \
+    -v "$(pwd)/replays":/replays \
+    -v "$(pwd)/serverlog":/serverlog noserver \
     --modded true \
     --name "7ep3s STRESS TEST #1" \
     --password ""\
-    --port-override true \
-    --port-value 7777 \
-    --query-override true \
-    --query-value 7778 \
+    --portOverride true \
+    --portValue 7777 \
+    --queryOverride true \
+    --queryValue 7778 \
     --maxplayers 16 \
-    --nostoptime 7202.0 \
+    --noStopTime 7202.0 \
     --rconPort 50000 \
     --rconPassword "defaultpassword" \
     --fpsLimit 60
@@ -25,16 +26,17 @@ sudo docker run -d \
     -p 50001-50001:50001-50001/tcp \
     -v "$(pwd)/stressTestMission":/missions \
     -v "$(pwd)/banlist":/banlist \
-    -v "$(pwd)/replays":/replays noserver \
+    -v "$(pwd)/replays":/replays \
+    -v "$(pwd)/serverlog":/serverlog noserver \
     --modded true \
     --name "7ep3s STRESS TEST #2" \
     --password ""\
-    --port-override true \
-    --port-value 7780 \
-    --query-override true \
-    --query-value 7781 \
+    --portOverride true \
+    --portValue 7780 \
+    --queryOverride true \
+    --queryValue 7781 \
     --maxplayers 16 \
-    --nostoptime 7202.0 \
+    --noStopTime 7202.0 \
     --rconPort 50001 \
     --rconPassword "defaultpassword" \
     --fpsLimit 60
@@ -45,16 +47,17 @@ sudo docker run -d \
     -p 50002-50002:50002-50002/tcp \
     -v "$(pwd)/stressTestMission":/missions \
     -v "$(pwd)/banlist":/banlist \
-    -v "$(pwd)/replays":/replays noserver \
+    -v "$(pwd)/replays":/replays \
+    -v "$(pwd)/serverlog":/serverlog noserver \
     --modded true \
     --name "7ep3s STRESS TEST #3" \
     --password ""\
-    --port-override true \
-    --port-value 7782 \
-    --query-override true \
-    --query-value 7783 \
+    --portOverride true \
+    --portValue 7782 \
+    --queryOverride true \
+    --queryValue 7783 \
     --maxplayers 16 \
-    --nostoptime 7202.0 \
+    --noStopTime 7202.0 \
     --rconPort 50002 \
     --rconPassword "defaultpassword" \
     --fpsLimit 60
@@ -65,16 +68,17 @@ sudo docker run -d \
     -p 50003-50003:50003-50003/tcp \
     -v "$(pwd)/stressTestMission":/missions \
     -v "$(pwd)/banlist":/banlist \
-    -v "$(pwd)/replays":/replays noserver \
+    -v "$(pwd)/replays":/replays \
+    -v "$(pwd)/serverlog":/serverlog noserver \
     --modded true \
     --name "7ep3s STRESS TEST #4" \
     --password ""\
-    --port-override true \
-    --port-value 7784 \
-    --query-override true \
-    --query-value 7785 \
+    --portOverride true \
+    --portValue 7784 \
+    --queryOverride true \
+    --queryValue 7785 \
     --maxplayers 16 \
-    --nostoptime 7202.0 \
+    --noStopTime 7202.0 \
     --rconPort 50003 \
     --rconPassword "defaultpassword" \
     --fpsLimit 60

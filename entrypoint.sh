@@ -3,11 +3,11 @@
 # ./generate_server_config.sh \
 #   --modded true \
 #   --name "My Server" \
-#   --port-override true --port-value 7777 \
-#   --query-override true --query-value 7778 \
+#   --portOverride true --portValue 7777 \
+#   --queryOverride true --queryValue 7778 \
 #   --password "secret" \
 #   --maxplayers 8 \
-#   --nostoptime 30.0 \
+#   --noStopTime 30.0 \
 #   --output ./server_config.json \
 #   --rconPort 7779 \
 #   --rconPassword 543sdfg
@@ -28,6 +28,7 @@ MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
 RCON_PORT="5000"
+INTERNAL_RCON_PORT="7779"
 FPS_LIMIT=30
 ROTATION_TYPE=0
 
@@ -38,15 +39,16 @@ while [[ "$#" -gt 0 ]]; do
     case $1 in
         --modded) MODDED="$2"; shift ;;
         --name) SERVER_NAME="$2"; shift ;;
-        --port-override) PORT_OVERRIDE="$2"; shift ;;
-        --port-value) PORT_VALUE="$2"; shift ;;
-        --query-override) QUERY_OVERRIDE="$2"; shift ;;
-        --query-value) QUERY_VALUE="$2"; shift ;;
+        --portOverride) PORT_OVERRIDE="$2"; shift ;;
+        --portValue) PORT_VALUE="$2"; shift ;;
+        --queryOverride) QUERY_OVERRIDE="$2"; shift ;;
+        --queryValue) QUERY_VALUE="$2"; shift ;;
         --password) PASSWORD="$2"; shift ;;
         --maxplayers) MAX_PLAYERS="$2"; shift ;;
-        --nostoptime) NO_PLAYER_STOP_TIME="$2"; shift ;;
+        --noStopTime) NO_PLAYER_STOP_TIME="$2"; shift ;;
         --output) OUTPUT_FILE="$2"; shift ;;
         --rconPort) RCON_PORT="$2"; shift ;;
+        --internalRconPort) INTERNAL_RCON_PORT="$2"; shift ;;
         --rconPassword) RCON_PASSWORD="$2"; shift ;;
         --fpsLimit) FPS_LIMIT="$2"; shift ;;
         --rotationType) ROTATION_TYPE="$2"; shift ;;
@@ -139,9 +141,12 @@ echo "JSON configuration saved to: $OUTPUT_FILE"
 touch ./banlist/banlist.txt
 DEF_RCON_PORT=5000
 DEF_RCON_PASSWORD=changeme
+DEF_INTERNAL_RCON_PORT=7779
 cd ./rcon/ServerControlPanel
 sed -i "s|$DEF_RCON_PORT|$RCON_PORT|g" ./config.py
+sed -i "s|$DEF_INTERNAL_RCON_PORT|$INTERNAL_RCON_PORT|g" ./config.py
 sed -i "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./config.py
+
 python3 app.py &
 
 cd ../../server
@@ -149,4 +154,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile server.log
+./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile "../serverlog/"$SERVER_NAME"server.log"

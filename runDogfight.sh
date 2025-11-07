@@ -13,19 +13,21 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         -p $RCONPORT-$RCONPORT:$RCONPORT-$RCONPORT/tcp \
         -v "$(pwd)/dogfightMission":/missions \
         -v "$(pwd)/banlist":/banlist \
-        -v "$(pwd)/replays":/replays noserver \
+        -v "$(pwd)/replays":/replays \
+        -v "$(pwd)/serverlog":/serverlog noserver \
         --modded true \
         --name "BROCCOLI DEFROST FORCE DOGFIGHT #"$INDEX"" \
         --password ""\
-        --port-override true \
-        --port-value $SERVERPORT \
-        --query-override true \
-        --query-value $QUERYPORT \
+        --portOverride true \
+        --portValue $SERVERPORT \
+        --queryOverride true \
+        --queryValue $QUERYPORT \
         --maxplayers 8 \
-        --nostoptime 0 \
+        --noStopTime 0 \
         --rconPort $RCONPORT \
         --rconPassword "defaultpassword" \
         --fpsLimit 60 \
+        --rotationType 2
 
     ((SERVERPORT=$SERVERPORT + 2))
     ((QUERYPORT=$QUERYPORT + 2))

@@ -31,4 +31,5 @@ RUN chmod +x /entrypoint.sh
 VOLUME ["/replays"]
 VOLUME ["/missions"]
 VOLUME ["/banlist"]
+VOLUME ["/serverlog"]
 ENTRYPOINT ["/entrypoint.sh"]

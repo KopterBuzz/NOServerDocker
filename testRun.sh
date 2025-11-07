@@ -1,18 +1,22 @@
 sudo docker run \
+    --cpuset-cpus=0,1,2,3 \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
     -p 50000-50000:50000-50000/tcp \
-    -v "$(pwd)/missions":/missions \
+    -v "$(pwd)/stressTestMission":/missions \
     -v "$(pwd)/banlist":/banlist \
-    -v "$(pwd)/replays":/replays noserver \
+    -v "$(pwd)/replays":/replays \
+    -v "$(pwd)/serverlog":/serverlog noserver \
     --modded true \
     --name "7ep3s TEST" \
     --password ""\
-    --port-override true \
-    --port-value 7777 \
-    --query-override true \
-    --query-value 7778 \
+    --portOverride true \
+    --portValue 7777 \
+    --queryOverride true \
+    --queryValue 7778 \
     --maxplayers 16 \
-    --nostoptime 1.0 \
+    --noStopTime 7202.0 \
     --rconPort 50000 \
-    --rconPassword "szopdki"
+    --rconPassword "defaultpassword" \
+    --fpsLimit 60 \
+    --rotationType 0
