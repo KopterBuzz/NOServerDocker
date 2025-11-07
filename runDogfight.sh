@@ -29,5 +29,5 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     ((SERVERPORT=$SERVERPORT + 2))
     ((QUERYPORT=$QUERYPORT + 2))
     ((RCONPORT++))
-don
+done
     
