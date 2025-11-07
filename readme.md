@@ -1,6 +1,6 @@
 # NOServerDocker - Dockerized Nuclear Option Dedicated Server with BepInEx 5 Integration
 
-This project provides resources to build ta Docker Image that is preconfigured to run a Nuclear Option Dedicated Server with the Official ServerControlPanel for remote control. It also includes a preconfigured BepInEx 5 Framework with the NOBlackBox Tacview Exporter Plugin.
+This project provides resources to build ta Docker Image that is preconfigured to run a Nuclear Option Dedicated Server with the Official [ServerControlPanel](https://github.com/Shockfront-Studios/Nuclear-Option-Server-Tools/tree/main/ServerControlPanel) for remote control. It also includes a preconfigured BepInEx 5 Framework with the NOBlackBox Tacview Exporter Plugin.
 
 ## Usage Instructions:
 
@@ -22,9 +22,9 @@ Official Documentation: [https://github.com/Shockfront-Studios/Nuclear-Option-Se
 - run build.sh, it will download all dependencies and build the docker image locally
 - the docker image's entrypoint script is configurable via several command line arguments.
 - to get a practical understanding of how the command line arguments function, 3 example launch scripts are provided:
-  - provided example testRun.sh demonstrates how to configure and launch a single container with the image
-  - provided example stressTest.sh runs 4x instances with a large mission and puts your cpu to the test.
-  - provided example runDogfight.sh will spawn a 4 instances of the dedicated server, however
+  - provided example [testRun.sh](https://github.com/KopterBuzz/NOServerDocker/blob/main/testRun.sh) demonstrates how to configure and launch a single container with the image
+  - provided example [stressTest.sh](https://github.com/KopterBuzz/NOServerDocker/blob/main/stressTest.sh) runs 4x instances with a [large mission](https://steamcommunity.com/sharedfiles/filedetails/?id=3598693787) and puts your cpu to the test.
+  - provided example [runDogfight.sh](https://github.com/KopterBuzz/NOServerDocker/blob/main/runDogfight.sh) will spawn a 4 instances of the dedicated server, however
 - when you create your own custom launch profile, please do take care of configuring the command line arguments properly
 pay special attention to:
 ```
@@ -36,7 +36,7 @@ pay special attention to:
 --internalRconPort
 ```
 - DO NOT run your server with default rcon password found in the repo. Everyone can read it here.
-- The server has an internal rcon port (tcp) that only listens on localhost. This is by default configured to 7779. This project currently uses this default 7779 port for every instance. Keep this in mind if you configure running multiple servers, do not try to bind 7779 for server or query port, unless you also change the internal rcon port. In case you DO decide to change the internal rcon port from 7779 to something different, you will also need to change it in the ServerControlPanel's settings. This project achieves configuring ServerControlPanel inside the container's entrypoint script and they are configurable via command line arguments:
+- The server has an internal rcon port (tcp) that only listens on localhost. This is by default configured to 7779. This project currently uses this default 7779 port for every instance. Keep this in mind if you configure running multiple servers, do not try to bind 7779 for server or query port, unless you also change the internal rcon port. In case you DO decide to change the internal rcon port from 7779 to something different, you will also need to change it in the [ServerControlPanel's](https://github.com/Shockfront-Studios/Nuclear-Option-Server-Tools/tree/main/ServerControlPanel) settings. This project achieves configuring ServerControlPanel inside the container's [entrypoint script](https://github.com/KopterBuzz/NOServerDocker/blob/main/entrypoint.sh#L144) and they are configurable via command line arguments:
 ```
 --rconPort
 --internalRconPort
@@ -64,7 +64,7 @@ Their purpose follows their name:
 
 # TODO
 - better password management
-- scaling
+- automated scaling
 # Contributing
 - feedback, suggestions, issue reports are welcome
 - if you wish to contribute to the repository, fork the project and open a Pull Request against [the dev branch](https://github.com/KopterBuzz/NOServerDocker/tree/dev)
