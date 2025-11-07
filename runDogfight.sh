@@ -24,7 +24,7 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         --maxplayers 8 \
         --nostoptime 0 \
         --rconPort $RCONPORT \
-        --rconPassword "lofasz" \
+        --rconPassword "defaultpassword" \
         --fpsLimit 60 \
 
     ((SERVERPORT=$SERVERPORT + 2))
