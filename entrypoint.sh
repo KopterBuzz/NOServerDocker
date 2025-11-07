@@ -8,7 +8,10 @@
 #   --password "secret" \
 #   --maxplayers 8 \
 #   --nostoptime 30.0 \
-#   --output ./server_config.json
+#   --output ./server_config.json \
+#   --rconPort 7779 \
+#   --rconPassword 543sdfg
+#    --rotationType 0
 
 set -e
 
@@ -20,9 +23,13 @@ PORT_VALUE=7777
 QUERY_OVERRIDE=false
 QUERY_VALUE=7778
 PASSWORD=""
+RCON_PASSWORD=""
 MAX_PLAYERS=8
 NO_PLAYER_STOP_TIME=30.0
 OUTPUT_FILE="./server/DedicatedServerConfig.json"
+RCON_PORT="5000"
+FPS_LIMIT=30
+ROTATION_TYPE=0
 
 MISSIONS_DIR="/missions"
 
@@ -39,11 +46,17 @@ while [[ "$#" -gt 0 ]]; do
         --maxplayers) MAX_PLAYERS="$2"; shift ;;
         --nostoptime) NO_PLAYER_STOP_TIME="$2"; shift ;;
         --output) OUTPUT_FILE="$2"; shift ;;
+        --rconPort) RCON_PORT="$2"; shift ;;
+        --rconPassword) RCON_PASSWORD="$2"; shift ;;
+        --fpsLimit) FPS_LIMIT="$2"; shift ;;
+        --rotationType) ROTATION_TYPE="$2"; shift ;;
         *) echo "Unknown parameter: $1"; exit 1 ;;
     esac
     shift
 done
 
+
+SERVER_LOG_PATH="server/server.log"
 # --------------------------------------------------------------------
 # Generate MissionRotation JSON array
 # --------------------------------------------------------------------
@@ -51,7 +64,7 @@ MISSION_ROTATION_JSON=""
 
 if [[ -d "$MISSIONS_DIR" && $(find "$MISSIONS_DIR" -mindepth 1 -type d | wc -l) -gt 0 ]]; then
     # Enumerate subdirectories in ./missions
-    echo "📂 Found custom missions in $MISSIONS_DIR — generating MissionRotation..."
+    echo "Found custom missions in $MISSIONS_DIR — generating MissionRotation..."
     MISSION_ROTATION_JSON=$(find "$MISSIONS_DIR" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | jq -R -s '
         split("\n") | map(select(length > 0)) |
         map({
@@ -97,6 +110,7 @@ jq -n \
   --arg password "$PASSWORD" \
   --argjson maxPlayers "$MAX_PLAYERS" \
   --argjson noStopTime "$NO_PLAYER_STOP_TIME" \
+  --argjson rotationType "$ROTATION_TYPE" \
   --argjson missionRotation "$MISSION_ROTATION_JSON" \
 '{
   "MissionDirectory": $missionsDir,
@@ -113,16 +127,26 @@ jq -n \
   "Password": $password,
   "MaxPlayers": $maxPlayers,
   "NoPlayerStopTime": $noStopTime,
-  "RotationType": 0,
+  "RotationType": $rotationType,
+  "BanListPaths": [
+    "/banlist/banlist.txt"
+  ],
   "MissionRotation": $missionRotation
 }' > "$OUTPUT_FILE"
 
 echo "JSON configuration saved to: $OUTPUT_FILE"
-cat ./server/DedicatedServerConfig.json
+#cat ./server/DedicatedServerConfig.json
+touch ./banlist/banlist.txt
+DEF_RCON_PORT=5000
+DEF_RCON_PASSWORD=changeme
+cd ./rcon/ServerControlPanel
+sed -i "s|$DEF_RCON_PORT|$RCON_PORT|g" ./config.py
+sed -i "s|$DEF_RCON_PASSWORD|$RCON_PASSWORD|g" ./config.py
+python3 app.py &
 
-cd ./server
+cd ../../server
 echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh
+./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile server.log

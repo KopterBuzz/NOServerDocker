@@ -1,14 +1,18 @@
 sudo docker run \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
+    -p 50000-50000:50000-50000/tcp \
     -v "$(pwd)/missions":/missions \
+    -v "$(pwd)/banlist":/banlist \
     -v "$(pwd)/replays":/replays noserver \
     --modded true \
-    --name "DOCKER TEST 123" \
-    --password "broccoli_defrosted"\
+    --name "7ep3s TEST" \
+    --password ""\
     --port-override true \
     --port-value 7777 \
     --query-override true \
     --query-value 7778 \
     --maxplayers 16 \
-    --nostoptime 1.0
+    --nostoptime 1.0 \
+    --rconPort 50000 \
+    --rconPassword "szopdki"

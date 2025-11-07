@@ -1,0 +1,80 @@
+sudo docker run -d \
+    --cpuset-cpus=0,1,2,3 \
+    -p 7777-7778:7777-7778/udp \
+    -p 7777-7778:7777-7778/tcp \
+    -p 50000-50000:50000-50000/tcp \
+    -v "$(pwd)/stressTestMission":/missions \
+    -v "$(pwd)/banlist":/banlist \
+    -v "$(pwd)/replays":/replays noserver \
+    --modded true \
+    --name "7ep3s STRESS TEST #1" \
+    --password ""\
+    --port-override true \
+    --port-value 7777 \
+    --query-override true \
+    --query-value 7778 \
+    --maxplayers 16 \
+    --nostoptime 7202.0 \
+    --rconPort 50000 \
+    --rconPassword "defaultpassword" \
+    --fpsLimit 60
+sudo docker run -d \
+    --cpuset-cpus=4,5,6,7 \
+    -p 7780-7781:7780-7781/udp \
+    -p 7780-7781:7780-7781/tcp \
+    -p 50001-50001:50001-50001/tcp \
+    -v "$(pwd)/stressTestMission":/missions \
+    -v "$(pwd)/banlist":/banlist \
+    -v "$(pwd)/replays":/replays noserver \
+    --modded true \
+    --name "7ep3s STRESS TEST #2" \
+    --password ""\
+    --port-override true \
+    --port-value 7780 \
+    --query-override true \
+    --query-value 7781 \
+    --maxplayers 16 \
+    --nostoptime 7202.0 \
+    --rconPort 50001 \
+    --rconPassword "defaultpassword" \
+    --fpsLimit 60
+sudo docker run -d \
+    --cpuset-cpus=8,9,10,11 \
+    -p 7782-7783:7782-7783/udp \
+    -p 7782-7783:7782-7783/tcp \
+    -p 50002-50002:50002-50002/tcp \
+    -v "$(pwd)/stressTestMission":/missions \
+    -v "$(pwd)/banlist":/banlist \
+    -v "$(pwd)/replays":/replays noserver \
+    --modded true \
+    --name "7ep3s STRESS TEST #3" \
+    --password ""\
+    --port-override true \
+    --port-value 7782 \
+    --query-override true \
+    --query-value 7783 \
+    --maxplayers 16 \
+    --nostoptime 7202.0 \
+    --rconPort 50002 \
+    --rconPassword "defaultpassword" \
+    --fpsLimit 60
+sudo docker run -d \
+    --cpuset-cpus=12,13,14,15 \
+    -p 7784-7785:7784-7785/udp \
+    -p 7784-7785:7784-7785/tcp \
+    -p 50003-50003:50003-50003/tcp \
+    -v "$(pwd)/stressTestMission":/missions \
+    -v "$(pwd)/banlist":/banlist \
+    -v "$(pwd)/replays":/replays noserver \
+    --modded true \
+    --name "7ep3s STRESS TEST #4" \
+    --password ""\
+    --port-override true \
+    --port-value 7784 \
+    --query-override true \
+    --query-value 7785 \
+    --maxplayers 16 \
+    --nostoptime 7202.0 \
+    --rconPort 50003 \
+    --rconPassword "defaultpassword" \
+    --fpsLimit 60
