@@ -154,4 +154,4 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile "../serverlog/"$SERVER_NAME"server.log"
+./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile "../serverlog/${SERVER_NAME}server.log"
