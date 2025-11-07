@@ -110,7 +110,7 @@ jq -n \
   --arg password "$PASSWORD" \
   --argjson maxPlayers "$MAX_PLAYERS" \
   --argjson noStopTime "$NO_PLAYER_STOP_TIME" \
-  --arg rotationType "$ROTATION_TYPE" \
+  --argjson rotationType "$ROTATION_TYPE" \
   --argjson missionRotation "$MISSION_ROTATION_JSON" \
 '{
   "MissionDirectory": $missionsDir,
