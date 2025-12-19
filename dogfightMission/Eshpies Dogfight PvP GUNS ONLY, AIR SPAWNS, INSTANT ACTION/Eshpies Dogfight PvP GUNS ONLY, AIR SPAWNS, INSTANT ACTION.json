@@ -1,1337 +1,1393 @@
 {
-    "JsonVersion": 2,
-    "WorkshopId": 0,
-    "MapKey": {
-        "Type": 0,
-        "TypeName": "",
-        "Path": ""
-    },
-    "missionSettings": {
-        "description": "Fun, Fast action dogfights, dont kill the trucks at the enemys airbase plz. stay in the city area and make it fun.            Also check out offshore airbase in the steam workshop and give it a like :)                                                                                                                                            .                                                                                                 .                                                                                                        .                                                                                                  .                                                                                                .                                                                                            Made by Eshpie",
-        "Tags": [],
-        "playerMode": 0,
-        "allowRespawn": true,
-        "playerStartingRank": 5,
-        "rankMultiplier": 1.0,
-        "successfulSortieBonus": 2.0,
-        "nuclearEscalationThreshold": 0.0,
-        "strategicEscalationThreshold": 0.0,
-        "missionRoads": {
-            "roads": []
-        },
-        "wrecksMaxNumber": 0,
-        "wrecksDecayTime": -1.0
-    },
-    "environment": {
-        "timeOfDay": 9.65714168548584,
-        "timeFactor": 0.0,
-        "weatherIntensity": 0.0,
-        "cloudAltitude": 4000.0,
-        "windSpeed": 0.0,
-        "windTurbulence": 0.0,
-        "windHeading": 0.0,
-        "windRandomHeading": 0.0
-    },
-    "aircraft": [],
-    "vehicles": [
-        {
-            "type": "HLT-R",
-            "faction": "Boscali",
-            "UniqueName": "HLT-R_1",
-            "globalPosition": {
-                "x": 6246.84716796875,
-                "y": 1999.5,
-                "z": 2890.5
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.7071068286895752,
-                "z": 0.0,
-                "w": 0.7071068286895752
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 1.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": true,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "HLT-M",
-            "faction": "Boscali",
-            "UniqueName": "HLT-M",
-            "globalPosition": {
-                "x": 6290.09521484375,
-                "y": 1949.9681396484375,
-                "z": 2869.818359375
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.7203810811042786,
-                "z": 0.0,
-                "w": 0.6935784816741943
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 1.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": true,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "HLT-FT",
-            "faction": "Boscali",
-            "UniqueName": "HLT-FT",
-            "globalPosition": {
-                "x": 6289.10400390625,
-                "y": 1949.9681396484375,
-                "z": 2862.12109375
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.7203807830810547,
-                "z": 0.0,
-                "w": 0.6935787796974182
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 1.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": true,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "HLT-R",
-            "faction": "Primeva",
-            "UniqueName": "HLT-R",
-            "globalPosition": {
-                "x": 6452.41845703125,
-                "y": 2094.600830078125,
-                "z": 14942.013671875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.7071068286895752,
-                "z": 0.0,
-                "w": 0.7071068286895752
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 1.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": true,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "HLT-M",
-            "faction": "Primeva",
-            "UniqueName": "HLT-M_1",
-            "globalPosition": {
-                "x": 6443.24365234375,
-                "y": 2045.0682373046875,
-                "z": 14953.615234375
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.9999786019325256,
-                "z": 0.0,
-                "w": 0.006542234681546688
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 1.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": true,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "HLT-FT",
-            "faction": "Primeva",
-            "UniqueName": "HLT-FT_1",
-            "globalPosition": {
-                "x": 6443.50927734375,
-                "y": 2045.0682373046875,
-                "z": 14967.287109375
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.9999786019325256,
-                "z": 0.0,
-                "w": 0.006542234681546688
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 1.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": true,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        }
-    ],
-    "ships": [
-        {
-            "type": "FleetCarrier1",
-            "faction": "",
-            "UniqueName": "FleetCarrier1",
-            "globalPosition": {
-                "x": 2026.4000244140625,
-                "y": 5.800000190734863,
-                "z": 8656.5
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": false,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "FleetCarrier1",
-            "faction": "",
-            "UniqueName": "FleetCarrier1_1",
-            "globalPosition": {
-                "x": 2214.60009765625,
-                "y": 5.800000190734863,
-                "z": 8656.5
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": false,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "FleetCarrier1",
-            "faction": "",
-            "UniqueName": "FleetCarrier1_2",
-            "globalPosition": {
-                "x": 2120.89990234375,
-                "y": 31.100000381469728,
-                "z": 8572.5
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.7071068286895752,
-                "z": 0.0,
-                "w": 0.7071068286895752
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": false,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "FleetCarrier1",
-            "faction": "",
-            "UniqueName": "FleetCarrier1_3",
-            "globalPosition": {
-                "x": 2120.89990234375,
-                "y": 31.100006103515626,
-                "z": 8724.400390625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.7071068286895752,
-                "z": 0.0,
-                "w": 0.7071068286895752
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": false,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "FleetCarrier1",
-            "faction": "",
-            "UniqueName": "FleetCarrier1_4",
-            "globalPosition": {
-                "x": 2026.4000244140625,
-                "y": 56.5,
-                "z": 8656.5
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": false,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        },
-        {
-            "type": "FleetCarrier1",
-            "faction": "",
-            "UniqueName": "FleetCarrier1_5",
-            "globalPosition": {
-                "x": 2214.60009765625,
-                "y": 56.5,
-                "z": 8656.5
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "holdPosition": false,
-            "skill": 0.699999988079071,
-            "waypoints": []
-        }
-    ],
-    "buildings": [
-        {
-            "type": "shelter1",
-            "faction": "Boscali",
-            "UniqueName": "shelter1",
-            "globalPosition": {
-                "x": 6316.10009765625,
-                "y": 1949.300048828125,
-                "z": 2904.800048828125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "Boscali Airspawn",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "shelter1",
-            "faction": "Boscali",
-            "UniqueName": "shelter1_1",
-            "globalPosition": {
-                "x": 6238.60009765625,
-                "y": 1949.300048828125,
-                "z": 2904.800048828125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "Boscali Airspawn",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "shelter1",
-            "faction": "Boscali",
-            "UniqueName": "shelter1_2",
-            "globalPosition": {
-                "x": 6161.7001953125,
-                "y": 1949.300048828125,
-                "z": 2904.800048828125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "Boscali Airspawn",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large",
-            "globalPosition": {
-                "x": 6209.5,
-                "y": 1988.5999755859375,
-                "z": 2794.300048828125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": -4.371138828673793e-8
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_1",
-            "globalPosition": {
-                "x": 6406.19677734375,
-                "y": 1988.5999755859375,
-                "z": 2794.300048828125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": -4.371138828673793e-8
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_2",
-            "globalPosition": {
-                "x": 6013.2001953125,
-                "y": 1988.5999755859375,
-                "z": 2794.2998046875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_3",
-            "globalPosition": {
-                "x": 5817.01611328125,
-                "y": 1988.5999755859375,
-                "z": 2794.18359375
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_4",
-            "globalPosition": {
-                "x": 6603.068359375,
-                "y": 1988.5999755859375,
-                "z": 2794.786865234375
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_5",
-            "globalPosition": {
-                "x": 6799.216796875,
-                "y": 1988.5999755859375,
-                "z": 2794.90185546875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_6",
-            "globalPosition": {
-                "x": 5620.48828125,
-                "y": 1988.5999755859375,
-                "z": 2793.9541015625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "",
-            "UniqueName": "Platform_large_7",
-            "globalPosition": {
-                "x": 6995.44091796875,
-                "y": 1988.5999755859375,
-                "z": 2794.858642578125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_8",
-            "globalPosition": {
-                "x": 6746.60009765625,
-                "y": 2083.699951171875,
-                "z": 15039.400390625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_9",
-            "globalPosition": {
-                "x": 6942.46484375,
-                "y": 2083.699951171875,
-                "z": 15039.3603515625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_10",
-            "globalPosition": {
-                "x": 6549.923828125,
-                "y": 2083.699951171875,
-                "z": 15039.2587890625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_11",
-            "globalPosition": {
-                "x": 6353.58984375,
-                "y": 2083.699951171875,
-                "z": 15039.4306640625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_12",
-            "globalPosition": {
-                "x": 6157.20751953125,
-                "y": 2083.699951171875,
-                "z": 15039.4765625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_13",
-            "globalPosition": {
-                "x": 5960.462890625,
-                "y": 2083.699951171875,
-                "z": 15039.189453125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_14",
-            "globalPosition": {
-                "x": 5763.88330078125,
-                "y": 2083.699951171875,
-                "z": 15038.9716796875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "Platform_large",
-            "faction": "Neutral",
-            "UniqueName": "Platform_large_15",
-            "globalPosition": {
-                "x": 7138.9443359375,
-                "y": 2083.699951171875,
-                "z": 15039.12890625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 1.0
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "shelter1",
-            "faction": "Primeva",
-            "UniqueName": "shelter1_3",
-            "globalPosition": {
-                "x": 6532.2001953125,
-                "y": 2044.0999755859375,
-                "z": 14928.2998046875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": -4.371138828673793e-8
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "Primeva Airspawn",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "shelter1",
-            "faction": "Primeva",
-            "UniqueName": "shelter1_4",
-            "globalPosition": {
-                "x": 6446.0859375,
-                "y": 2044.0999755859375,
-                "z": 14928.2998046875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": -4.371138828673793e-8
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "Primeva Airspawn",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        },
-        {
-            "type": "shelter1",
-            "faction": "Primeva",
-            "UniqueName": "shelter1_5",
-            "globalPosition": {
-                "x": 6358.30322265625,
-                "y": 2044.0999755859375,
-                "z": 14928.2998046875
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0,
-                "w": -4.371138828673793e-8
-            },
-            "CaptureStrength": {
-                "IsOverride": false,
-                "Value": 0.0
-            },
-            "unitCustomID": "",
-            "spawnTiming": "",
-            "capturable": false,
-            "Airbase": "Primeva Airspawn",
-            "factoryOptions": {
-                "productionType": "",
-                "productionTime": 900.0
-            },
-            "placementOffset": 0.0
-        }
-    ],
-    "factions": [
-        {
-            "factionName": "Boscali",
-            "preventJoin": false,
-            "supplies": [],
-            "startingBalance": 1225.0,
-            "playerJoinAllowance": 1225.0,
-            "playerTaxRate": 0.0,
-            "regularIncome": 100.0,
-            "killReward": 10.0,
-            "startingWarheads": 0,
-            "reserveWarheads": 0,
-            "reserveAirframes": 0,
-            "extraReservesPerPlayer": 1,
-            "AIAircraftLimit": 0,
-            "reduceAIPerFriendlyPlayer": 1.0,
-            "addAIPerEnemyPlayer": 0.0,
-            "objectives": [],
-            "restrictions": {
-                "aircraft": [],
-                "weapons": [
-                    "AAM1_double",
-                    "AAM1_double_internal",
-                    "AAM1_internalx3",
-                    "AAM1_single",
-                    "AAM1_single_internal",
-                    "AAM2_double_internal",
-                    "AAM2_double",
-                    "AAM2_single",
-                    "AAM2_single_internal",
-                    "AAM2_triple_internal",
-                    "AGM1_double",
-                    "AGM1_quad",
-                    "AGM1_quad_internal",
-                    "AGM1_single",
-                    "AGM_heavy_internal",
-                    "AGM_heavy_internalx4",
-                    "AGM_heavy_internalx8",
-                    "AGM_heavy_single",
-                    "AGM_heavyx2",
-                    "ARM1_double",
-                    "ARM1_internalx2",
-                    "ARM1_single",
-                    "bomb500_internal",
-                    "bomb500_internalx2",
-                    "bomb500_internalx4",
-                    "bomb500_internalx8",
-                    "bomb500_single",
-                    "bomb_250_1_internalx3",
-                    "bomb_250_1_single",
-                    "bomb_250_1_internal",
-                    "bomb_250_1_triple",
-                    "bomb_demolition_internal",
-                    "bomb_glide1_single",
-                    "bomb_glide1_triple",
-                    "bomb_penetrator1",
-                    "bomb_penetrator1_internalx2",
-                    "bomb_penetrator1_internalx3",
-                    "CruiseMissile1_internal",
-                    "CruiseMissile1_internalx2",
-                    "CruiseMissile1_internalx4",
-                    "CruiseMissile1_internalx6",
-                    "CruiseMissile20kt_internalx2",
-                    "IRMS1_double",
-                    "IRMS1_single",
-                    "JammingPod1",
-                    "nuclearBomb1_internal",
-                    "nuclearBomb1_internalx2",
-                    "nuclearBomb1_internalx4",
-                    "nuclearBomb1_strategic_internal",
-                    "nuclearBomb1_strategic_internalx2",
-                    "nuclearBomb1_strategic_internalx4",
-                    "RocketPod1_single",
-                    "RocketPod1_triple",
-                    "AGM1_floorLauncher_QuadVTOL1",
-                    "76mmSideMount",
-                    "bomb250_internalx18"
-                ]
-            }
-        },
-        {
-            "factionName": "Primeva",
-            "preventJoin": false,
-            "supplies": [],
-            "startingBalance": 1225.0,
-            "playerJoinAllowance": 1225.0,
-            "playerTaxRate": 0.0,
-            "regularIncome": 100.0,
-            "killReward": 10.0,
-            "startingWarheads": 0,
-            "reserveWarheads": 0,
-            "reserveAirframes": 0,
-            "extraReservesPerPlayer": 1,
-            "AIAircraftLimit": 0,
-            "reduceAIPerFriendlyPlayer": 1.0,
-            "addAIPerEnemyPlayer": 0.0,
-            "objectives": [],
-            "restrictions": {
-                "aircraft": [],
-                "weapons": [
-                    "AAM1_double",
-                    "AAM1_double_internal",
-                    "AAM1_internalx3",
-                    "AAM1_single",
-                    "AAM1_single_internal",
-                    "AAM2_double",
-                    "AAM2_double_internal",
-                    "AAM2_single",
-                    "AAM2_single_internal",
-                    "AAM2_triple_internal",
-                    "AGM1_double",
-                    "AGM1_quad",
-                    "AGM1_quad_internal",
-                    "AGM1_single",
-                    "AGM_heavy_internal",
-                    "AGM_heavy_internalx4",
-                    "AGM_heavy_internalx8",
-                    "AGM_heavy_single",
-                    "AGM_heavyx2",
-                    "ARM1_double",
-                    "ARM1_internalx2",
-                    "ARM1_single",
-                    "bomb500_internal",
-                    "bomb500_internalx2",
-                    "bomb500_internalx4",
-                    "bomb500_internalx8",
-                    "bomb500_single",
-                    "bomb_250_1_internalx3",
-                    "bomb_250_1_single",
-                    "bomb_250_1_internal",
-                    "bomb_250_1_triple",
-                    "bomb_demolition_internal",
-                    "bomb_glide1_single",
-                    "bomb_glide1_triple",
-                    "bomb_penetrator1",
-                    "bomb_penetrator1_internalx2",
-                    "bomb_penetrator1_internalx3",
-                    "CruiseMissile1_internal",
-                    "CruiseMissile1_internalx2",
-                    "CruiseMissile1_internalx4",
-                    "CruiseMissile1_internalx6",
-                    "CruiseMissile20kt_internalx2",
-                    "IRMS1_double",
-                    "IRMS1_single",
-                    "JammingPod1",
-                    "nuclearBomb1_internal",
-                    "nuclearBomb1_internalx2",
-                    "nuclearBomb1_internalx4",
-                    "nuclearBomb1_strategic_internal",
-                    "nuclearBomb1_strategic_internalx2",
-                    "nuclearBomb1_strategic_internalx4",
-                    "RocketPod1_single",
-                    "AGM1_floorLauncher_QuadVTOL1",
-                    "76mmSideMount",
-                    "bomb250_internalx18",
-                    "RocketPod1_triple"
-                ]
-            }
-        }
-    ],
-    "airbases": [
-        {
-            "IsOverride": false,
-            "faction": "Boscali",
-            "UniqueName": "Boscali Airspawn",
-            "DisplayName": "Boscali Airspawn",
-            "Disabled": false,
-            "Capturable": false,
-            "CaptureDefense": 10.0,
-            "CaptureRange": 1000.0,
-            "Center": {
-                "x": 6237.09228515625,
-                "y": 2003.6514892578125,
-                "z": 2817.85595703125
-            },
-            "SelectionPosition": {
-                "x": 6162.69677734375,
-                "y": 1948.680419921875,
-                "z": 2791.63720703125
-            },
-            "Tower": "",
-            "VerticalLandingPoints": [
-                {
-                    "x": 6237.09228515625,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                }
-            ],
-            "ServicePoints": [
-                {
-                    "x": 6468.80712890625,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                },
-                {
-                    "x": 6298.46142578125,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                },
-                {
-                    "x": 6090.27783203125,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                },
-                {
-                    "x": 5869.38427734375,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                },
-                {
-                    "x": 5653.736328125,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                },
-                {
-                    "x": 6674.638671875,
-                    "y": 2008.6514892578125,
-                    "z": 2817.85595703125
-                },
-                {
-                    "x": 6870.73583984375,
-                    "y": 2002.07568359375,
-                    "z": 2817.85595703125
-                }
-            ],
-            "roads": {
-                "roads": []
-            },
-            "runways": [
-                {
-                    "Name": "",
-                    "Reversable": true,
-                    "Takeoff": true,
-                    "Landing": true,
-                    "Arrestor": false,
-                    "SkiJump": false,
-                    "Width": 100.0,
-                    "Start": {
-                        "x": 5532.33740234375,
-                        "y": 2003.6514892578125,
-                        "z": 2793.48486328125
+    "JsonVersion":  2,
+    "WorkshopId":  0,
+    "MapKey":  {
+                   "Type":  0,
+                   "TypeName":  "",
+                   "Path":  ""
+               },
+    "missionSettings":  {
+                            "description":  "Fun, Fast action dogfights, dont kill the trucks at the enemys airbase plz. stay in the city area and make it fun.            Also check out offshore airbase in the steam workshop and give it a like :)                                                                                                                                            .                                                                                                 .                                                                                                        .                                                                                                  .                                                                                                .                                                                                            Made by Eshpie",
+                            "Tags":  [
+
+                                     ],
+                            "playerMode":  0,
+                            "allowRespawn":  true,
+                            "playerStartingRank":  5,
+                            "rankMultiplier":  1.0,
+                            "successfulSortieBonus":  2.0,
+                            "nuclearEscalationThreshold":  0.0,
+                            "strategicEscalationThreshold":  0.0,
+                            "missionRoads":  {
+                                                 "roads":  [
+
+                                                           ]
+                                             },
+                            "wrecksMaxNumber":  0,
+                            "wrecksDecayTime":  -1.0
+                        },
+    "environment":  {
+                        "timeOfDay":  9.65714168548584,
+                        "timeFactor":  0.0,
+                        "weatherIntensity":  0.0,
+                        "cloudAltitude":  4000.0,
+                        "windSpeed":  0.0,
+                        "windTurbulence":  0.0,
+                        "windHeading":  0.0,
+                        "windRandomHeading":  0.0
                     },
-                    "End": {
-                        "x": 7065.5419921875,
-                        "y": 2003.6514892578125,
-                        "z": 2793.767578125
-                    },
-                    "exitPoints": []
-                }
-            ]
-        },
-        {
-            "IsOverride": false,
-            "faction": "Primeva",
-            "UniqueName": "Primeva Airspawn",
-            "DisplayName": "Primeva Airspawn",
-            "Disabled": false,
-            "Capturable": true,
-            "CaptureDefense": 10.0,
-            "CaptureRange": 1000.0,
-            "Center": {
-                "x": 6494.9541015625,
-                "y": 2093.700927734375,
-                "z": 15039.64453125
-            },
-            "SelectionPosition": {
-                "x": 7144.0478515625,
-                "y": 2044.30810546875,
-                "z": 15030.341796875
-            },
-            "Tower": "",
-            "VerticalLandingPoints": [
-                {
-                    "x": 6494.9541015625,
-                    "y": 2098.700927734375,
-                    "z": 15039.64453125
-                }
-            ],
-            "ServicePoints": [
-                {
-                    "x": 7134.6103515625,
-                    "y": 2098.699951171875,
-                    "z": 15039.599609375
-                },
-                {
-                    "x": 5763.81201171875,
-                    "y": 2098.700927734375,
-                    "z": 15039.64453125
-                },
-                {
-                    "x": 6940.35107421875,
-                    "y": 2098.700927734375,
-                    "z": 15039.64453125
-                },
-                {
-                    "x": 6152.283203125,
-                    "y": 2098.700927734375,
-                    "z": 15039.64453125
-                },
-                {
-                    "x": 5957.66064453125,
-                    "y": 2098.700927734375,
-                    "z": 15039.64453125
-                },
-                {
-                    "x": 6494.9541015625,
-                    "y": 2098.700927734375,
-                    "z": 15047.1357421875
-                },
-                {
-                    "x": 6746.4833984375,
-                    "y": 2098.700927734375,
-                    "z": 15039.64453125
-                }
-            ],
-            "roads": {
-                "roads": []
-            },
-            "runways": [
-                {
-                    "Name": "",
-                    "Reversable": true,
-                    "Takeoff": true,
-                    "Landing": true,
-                    "Arrestor": false,
-                    "SkiJump": false,
-                    "Width": 100.0,
-                    "Start": {
-                        "x": 5671.6005859375,
-                        "y": 2093.700927734375,
-                        "z": 15039.64453125
-                    },
-                    "End": {
-                        "x": 7231.08154296875,
-                        "y": 2093.700927734375,
-                        "z": 15039.64453125
-                    },
-                    "exitPoints": []
-                }
-            ]
-        }
-    ],
-    "objectives": {
-        "Objectives": [
-            {
-                "UniqueName": "Mission Start",
-                "Faction": "",
-                "DisplayName": "",
-                "Hidden": true,
-                "Type": 0,
-                "TypeName": "None",
-                "Data": [],
-                "Outcomes": []
-            }
-        ],
-        "Outcomes": []
-    }
+    "aircraft":  [
+
+                 ],
+    "vehicles":  [
+                     {
+                         "type":  "HLT-R",
+                         "faction":  "Boscali",
+                         "UniqueName":  "HLT-R_1",
+                         "globalPosition":  {
+                                                "x":  6246.84716796875,
+                                                "y":  1999.5,
+                                                "z":  2890.5
+                                            },
+                         "rotation":  {
+                                          "x":  0.0,
+                                          "y":  0.7071068286895752,
+                                          "z":  0.0,
+                                          "w":  0.7071068286895752
+                                      },
+                         "CaptureStrength":  {
+                                                 "IsOverride":  false,
+                                                 "Value":  1.0
+                                             },
+                         "unitCustomID":  "",
+                         "spawnTiming":  "",
+                         "holdPosition":  true,
+                         "skill":  0.699999988079071,
+                         "waypoints":  [
+
+                                       ]
+                     },
+                     {
+                         "type":  "HLT-M",
+                         "faction":  "Boscali",
+                         "UniqueName":  "HLT-M",
+                         "globalPosition":  {
+                                                "x":  6290.09521484375,
+                                                "y":  1949.9681396484375,
+                                                "z":  2869.818359375
+                                            },
+                         "rotation":  {
+                                          "x":  0.0,
+                                          "y":  0.7203810811042786,
+                                          "z":  0.0,
+                                          "w":  0.6935784816741943
+                                      },
+                         "CaptureStrength":  {
+                                                 "IsOverride":  false,
+                                                 "Value":  1.0
+                                             },
+                         "unitCustomID":  "",
+                         "spawnTiming":  "",
+                         "holdPosition":  true,
+                         "skill":  0.699999988079071,
+                         "waypoints":  [
+
+                                       ]
+                     },
+                     {
+                         "type":  "HLT-FT",
+                         "faction":  "Boscali",
+                         "UniqueName":  "HLT-FT",
+                         "globalPosition":  {
+                                                "x":  6289.10400390625,
+                                                "y":  1949.9681396484375,
+                                                "z":  2862.12109375
+                                            },
+                         "rotation":  {
+                                          "x":  0.0,
+                                          "y":  0.7203807830810547,
+                                          "z":  0.0,
+                                          "w":  0.6935787796974182
+                                      },
+                         "CaptureStrength":  {
+                                                 "IsOverride":  false,
+                                                 "Value":  1.0
+                                             },
+                         "unitCustomID":  "",
+                         "spawnTiming":  "",
+                         "holdPosition":  true,
+                         "skill":  0.699999988079071,
+                         "waypoints":  [
+
+                                       ]
+                     },
+                     {
+                         "type":  "HLT-R",
+                         "faction":  "Primeva",
+                         "UniqueName":  "HLT-R",
+                         "globalPosition":  {
+                                                "x":  6452.41845703125,
+                                                "y":  2094.600830078125,
+                                                "z":  14942.013671875
+                                            },
+                         "rotation":  {
+                                          "x":  0.0,
+                                          "y":  0.7071068286895752,
+                                          "z":  0.0,
+                                          "w":  0.7071068286895752
+                                      },
+                         "CaptureStrength":  {
+                                                 "IsOverride":  false,
+                                                 "Value":  1.0
+                                             },
+                         "unitCustomID":  "",
+                         "spawnTiming":  "",
+                         "holdPosition":  true,
+                         "skill":  0.699999988079071,
+                         "waypoints":  [
+
+                                       ]
+                     },
+                     {
+                         "type":  "HLT-M",
+                         "faction":  "Primeva",
+                         "UniqueName":  "HLT-M_1",
+                         "globalPosition":  {
+                                                "x":  6443.24365234375,
+                                                "y":  2045.0682373046875,
+                                                "z":  14953.615234375
+                                            },
+                         "rotation":  {
+                                          "x":  0.0,
+                                          "y":  0.9999786019325256,
+                                          "z":  0.0,
+                                          "w":  0.006542234681546688
+                                      },
+                         "CaptureStrength":  {
+                                                 "IsOverride":  false,
+                                                 "Value":  1.0
+                                             },
+                         "unitCustomID":  "",
+                         "spawnTiming":  "",
+                         "holdPosition":  true,
+                         "skill":  0.699999988079071,
+                         "waypoints":  [
+
+                                       ]
+                     },
+                     {
+                         "type":  "HLT-FT",
+                         "faction":  "Primeva",
+                         "UniqueName":  "HLT-FT_1",
+                         "globalPosition":  {
+                                                "x":  6443.50927734375,
+                                                "y":  2045.0682373046875,
+                                                "z":  14967.287109375
+                                            },
+                         "rotation":  {
+                                          "x":  0.0,
+                                          "y":  0.9999786019325256,
+                                          "z":  0.0,
+                                          "w":  0.006542234681546688
+                                      },
+                         "CaptureStrength":  {
+                                                 "IsOverride":  false,
+                                                 "Value":  1.0
+                                             },
+                         "unitCustomID":  "",
+                         "spawnTiming":  "",
+                         "holdPosition":  true,
+                         "skill":  0.699999988079071,
+                         "waypoints":  [
+
+                                       ]
+                     }
+                 ],
+    "ships":  [
+                  {
+                      "type":  "FleetCarrier1",
+                      "faction":  "",
+                      "UniqueName":  "FleetCarrier1",
+                      "globalPosition":  {
+                                             "x":  2026.4000244140625,
+                                             "y":  5.800000190734863,
+                                             "z":  8656.5
+                                         },
+                      "rotation":  {
+                                       "x":  0.0,
+                                       "y":  0.0,
+                                       "z":  0.0,
+                                       "w":  1.0
+                                   },
+                      "CaptureStrength":  {
+                                              "IsOverride":  false,
+                                              "Value":  0.0
+                                          },
+                      "unitCustomID":  "",
+                      "spawnTiming":  "",
+                      "holdPosition":  false,
+                      "skill":  0.699999988079071,
+                      "waypoints":  [
+
+                                    ]
+                  },
+                  {
+                      "type":  "FleetCarrier1",
+                      "faction":  "",
+                      "UniqueName":  "FleetCarrier1_1",
+                      "globalPosition":  {
+                                             "x":  2214.60009765625,
+                                             "y":  5.800000190734863,
+                                             "z":  8656.5
+                                         },
+                      "rotation":  {
+                                       "x":  0.0,
+                                       "y":  0.0,
+                                       "z":  0.0,
+                                       "w":  1.0
+                                   },
+                      "CaptureStrength":  {
+                                              "IsOverride":  false,
+                                              "Value":  0.0
+                                          },
+                      "unitCustomID":  "",
+                      "spawnTiming":  "",
+                      "holdPosition":  false,
+                      "skill":  0.699999988079071,
+                      "waypoints":  [
+
+                                    ]
+                  },
+                  {
+                      "type":  "FleetCarrier1",
+                      "faction":  "",
+                      "UniqueName":  "FleetCarrier1_2",
+                      "globalPosition":  {
+                                             "x":  2120.89990234375,
+                                             "y":  31.100000381469728,
+                                             "z":  8572.5
+                                         },
+                      "rotation":  {
+                                       "x":  0.0,
+                                       "y":  0.7071068286895752,
+                                       "z":  0.0,
+                                       "w":  0.7071068286895752
+                                   },
+                      "CaptureStrength":  {
+                                              "IsOverride":  false,
+                                              "Value":  0.0
+                                          },
+                      "unitCustomID":  "",
+                      "spawnTiming":  "",
+                      "holdPosition":  false,
+                      "skill":  0.699999988079071,
+                      "waypoints":  [
+
+                                    ]
+                  },
+                  {
+                      "type":  "FleetCarrier1",
+                      "faction":  "",
+                      "UniqueName":  "FleetCarrier1_3",
+                      "globalPosition":  {
+                                             "x":  2120.89990234375,
+                                             "y":  31.100006103515626,
+                                             "z":  8724.400390625
+                                         },
+                      "rotation":  {
+                                       "x":  0.0,
+                                       "y":  0.7071068286895752,
+                                       "z":  0.0,
+                                       "w":  0.7071068286895752
+                                   },
+                      "CaptureStrength":  {
+                                              "IsOverride":  false,
+                                              "Value":  0.0
+                                          },
+                      "unitCustomID":  "",
+                      "spawnTiming":  "",
+                      "holdPosition":  false,
+                      "skill":  0.699999988079071,
+                      "waypoints":  [
+
+                                    ]
+                  },
+                  {
+                      "type":  "FleetCarrier1",
+                      "faction":  "",
+                      "UniqueName":  "FleetCarrier1_4",
+                      "globalPosition":  {
+                                             "x":  2026.4000244140625,
+                                             "y":  56.5,
+                                             "z":  8656.5
+                                         },
+                      "rotation":  {
+                                       "x":  0.0,
+                                       "y":  0.0,
+                                       "z":  0.0,
+                                       "w":  1.0
+                                   },
+                      "CaptureStrength":  {
+                                              "IsOverride":  false,
+                                              "Value":  0.0
+                                          },
+                      "unitCustomID":  "",
+                      "spawnTiming":  "",
+                      "holdPosition":  false,
+                      "skill":  0.699999988079071,
+                      "waypoints":  [
+
+                                    ]
+                  },
+                  {
+                      "type":  "FleetCarrier1",
+                      "faction":  "",
+                      "UniqueName":  "FleetCarrier1_5",
+                      "globalPosition":  {
+                                             "x":  2214.60009765625,
+                                             "y":  56.5,
+                                             "z":  8656.5
+                                         },
+                      "rotation":  {
+                                       "x":  0.0,
+                                       "y":  0.0,
+                                       "z":  0.0,
+                                       "w":  1.0
+                                   },
+                      "CaptureStrength":  {
+                                              "IsOverride":  false,
+                                              "Value":  0.0
+                                          },
+                      "unitCustomID":  "",
+                      "spawnTiming":  "",
+                      "holdPosition":  false,
+                      "skill":  0.699999988079071,
+                      "waypoints":  [
+
+                                    ]
+                  }
+              ],
+    "buildings":  [
+                      {
+                          "type":  "shelter1",
+                          "faction":  "Boscali",
+                          "UniqueName":  "shelter1",
+                          "globalPosition":  {
+                                                 "x":  6316.10009765625,
+                                                 "y":  1949.300048828125,
+                                                 "z":  2904.800048828125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "Boscali Airspawn",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "shelter1",
+                          "faction":  "Boscali",
+                          "UniqueName":  "shelter1_1",
+                          "globalPosition":  {
+                                                 "x":  6238.60009765625,
+                                                 "y":  1949.300048828125,
+                                                 "z":  2904.800048828125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "Boscali Airspawn",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "shelter1",
+                          "faction":  "Boscali",
+                          "UniqueName":  "shelter1_2",
+                          "globalPosition":  {
+                                                 "x":  6161.7001953125,
+                                                 "y":  1949.300048828125,
+                                                 "z":  2904.800048828125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "Boscali Airspawn",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large",
+                          "globalPosition":  {
+                                                 "x":  6209.5,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.300048828125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  1.0,
+                                           "z":  0.0,
+                                           "w":  -4.3711388286737929E-08
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_1",
+                          "globalPosition":  {
+                                                 "x":  6406.19677734375,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.300048828125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  1.0,
+                                           "z":  0.0,
+                                           "w":  -4.3711388286737929E-08
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_2",
+                          "globalPosition":  {
+                                                 "x":  6013.2001953125,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.2998046875
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_3",
+                          "globalPosition":  {
+                                                 "x":  5817.01611328125,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.18359375
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_4",
+                          "globalPosition":  {
+                                                 "x":  6603.068359375,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.786865234375
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_5",
+                          "globalPosition":  {
+                                                 "x":  6799.216796875,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.90185546875
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_6",
+                          "globalPosition":  {
+                                                 "x":  5620.48828125,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2793.9541015625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "",
+                          "UniqueName":  "Platform_large_7",
+                          "globalPosition":  {
+                                                 "x":  6995.44091796875,
+                                                 "y":  1988.5999755859375,
+                                                 "z":  2794.858642578125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_8",
+                          "globalPosition":  {
+                                                 "x":  6746.60009765625,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.400390625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_9",
+                          "globalPosition":  {
+                                                 "x":  6942.46484375,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.3603515625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_10",
+                          "globalPosition":  {
+                                                 "x":  6549.923828125,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.2587890625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_11",
+                          "globalPosition":  {
+                                                 "x":  6353.58984375,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.4306640625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_12",
+                          "globalPosition":  {
+                                                 "x":  6157.20751953125,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.4765625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_13",
+                          "globalPosition":  {
+                                                 "x":  5960.462890625,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.189453125
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_14",
+                          "globalPosition":  {
+                                                 "x":  5763.88330078125,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15038.9716796875
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "Platform_large",
+                          "faction":  "Neutral",
+                          "UniqueName":  "Platform_large_15",
+                          "globalPosition":  {
+                                                 "x":  7138.9443359375,
+                                                 "y":  2083.699951171875,
+                                                 "z":  15039.12890625
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  0.0,
+                                           "z":  0.0,
+                                           "w":  1.0
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "shelter1",
+                          "faction":  "Primeva",
+                          "UniqueName":  "shelter1_3",
+                          "globalPosition":  {
+                                                 "x":  6532.2001953125,
+                                                 "y":  2044.0999755859375,
+                                                 "z":  14928.2998046875
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  1.0,
+                                           "z":  0.0,
+                                           "w":  -4.3711388286737929E-08
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "Primeva Airspawn",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "shelter1",
+                          "faction":  "Primeva",
+                          "UniqueName":  "shelter1_4",
+                          "globalPosition":  {
+                                                 "x":  6446.0859375,
+                                                 "y":  2044.0999755859375,
+                                                 "z":  14928.2998046875
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  1.0,
+                                           "z":  0.0,
+                                           "w":  -4.3711388286737929E-08
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "Primeva Airspawn",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      },
+                      {
+                          "type":  "shelter1",
+                          "faction":  "Primeva",
+                          "UniqueName":  "shelter1_5",
+                          "globalPosition":  {
+                                                 "x":  6358.30322265625,
+                                                 "y":  2044.0999755859375,
+                                                 "z":  14928.2998046875
+                                             },
+                          "rotation":  {
+                                           "x":  0.0,
+                                           "y":  1.0,
+                                           "z":  0.0,
+                                           "w":  -4.3711388286737929E-08
+                                       },
+                          "CaptureStrength":  {
+                                                  "IsOverride":  false,
+                                                  "Value":  0.0
+                                              },
+                          "unitCustomID":  "",
+                          "spawnTiming":  "",
+                          "capturable":  false,
+                          "Airbase":  "Primeva Airspawn",
+                          "factoryOptions":  {
+                                                 "productionType":  "",
+                                                 "productionTime":  900.0
+                                             },
+                          "placementOffset":  0.0
+                      }
+                  ],
+    "factions":  [
+                     {
+                         "factionName":  "Boscali",
+                         "preventJoin":  false,
+                         "supplies":  [
+
+                                      ],
+                         "startingBalance":  1225.0,
+                         "playerJoinAllowance":  1225.0,
+                         "playerTaxRate":  0.0,
+                         "regularIncome":  100.0,
+                         "killReward":  10.0,
+                         "startingWarheads":  0,
+                         "reserveWarheads":  0,
+                         "reserveAirframes":  0,
+                         "extraReservesPerPlayer":  1,
+                         "AIAircraftLimit":  0,
+                         "reduceAIPerFriendlyPlayer":  1.0,
+                         "addAIPerEnemyPlayer":  0.0,
+                         "objectives":  [
+
+                                        ],
+                         "restrictions":  {
+                                              "aircraft":  [
+
+                                                           ],
+                                              "weapons":  [
+                                                              "AAM1_double",
+                                                              "AAM1_double_internal",
+                                                              "AAM1_internalx3",
+                                                              "AAM1_single",
+                                                              "AAM1_single_internal",
+                                                              "AAM2_double_internal",
+                                                              "AAM2_double",
+                                                              "AAM2_single",
+                                                              "AAM2_single_internal",
+                                                              "AAM2_triple_internal",
+                                                              "AGM1_double",
+                                                              "AGM1_quad",
+                                                              "AGM1_quad_internal",
+                                                              "AGM1_single",
+                                                              "AGM_heavy_internal",
+                                                              "AGM_heavy_internalx4",
+                                                              "AGM_heavy_internalx8",
+                                                              "AGM_heavy_single",
+                                                              "AGM_heavyx2",
+                                                              "ARM1_double",
+                                                              "ARM1_internalx2",
+                                                              "ARM1_single",
+                                                              "bomb500_internal",
+                                                              "bomb500_internalx2",
+                                                              "bomb500_internalx4",
+                                                              "bomb500_internalx8",
+                                                              "bomb500_single",
+                                                              "bomb_250_1_internalx3",
+                                                              "bomb_250_1_single",
+                                                              "bomb_250_1_internal",
+                                                              "bomb_250_1_triple",
+                                                              "bomb_demolition_internal",
+                                                              "bomb_glide1_single",
+                                                              "bomb_glide1_triple",
+                                                              "bomb_penetrator1",
+                                                              "bomb_penetrator1_internalx2",
+                                                              "bomb_penetrator1_internalx3",
+                                                              "CruiseMissile1_internal",
+                                                              "CruiseMissile1_internalx2",
+                                                              "CruiseMissile1_internalx4",
+                                                              "CruiseMissile1_internalx6",
+                                                              "CruiseMissile20kt_internalx2",
+                                                              "IRMS1_double",
+                                                              "IRMS1_single",
+                                                              "JammingPod1",
+                                                              "nuclearBomb1_internal",
+                                                              "nuclearBomb1_internalx2",
+                                                              "nuclearBomb1_internalx4",
+                                                              "nuclearBomb1_strategic_internal",
+                                                              "nuclearBomb1_strategic_internalx2",
+                                                              "nuclearBomb1_strategic_internalx4",
+                                                              "RocketPod1_single",
+                                                              "RocketPod1_triple",
+                                                              "AGM1_floorLauncher_QuadVTOL1",
+                                                              "76mmSideMount",
+                                                              "bomb250_internalx18"
+                                                          ]
+                                          }
+                     },
+                     {
+                         "factionName":  "Primeva",
+                         "preventJoin":  false,
+                         "supplies":  [
+
+                                      ],
+                         "startingBalance":  1225.0,
+                         "playerJoinAllowance":  1225.0,
+                         "playerTaxRate":  0.0,
+                         "regularIncome":  100.0,
+                         "killReward":  10.0,
+                         "startingWarheads":  0,
+                         "reserveWarheads":  0,
+                         "reserveAirframes":  0,
+                         "extraReservesPerPlayer":  1,
+                         "AIAircraftLimit":  0,
+                         "reduceAIPerFriendlyPlayer":  1.0,
+                         "addAIPerEnemyPlayer":  0.0,
+                         "objectives":  [
+
+                                        ],
+                         "restrictions":  {
+                                              "aircraft":  [
+
+                                                           ],
+                                              "weapons":  [
+                                                              "AAM1_double",
+                                                              "AAM1_double_internal",
+                                                              "AAM1_internalx3",
+                                                              "AAM1_single",
+                                                              "AAM1_single_internal",
+                                                              "AAM2_double",
+                                                              "AAM2_double_internal",
+                                                              "AAM2_single",
+                                                              "AAM2_single_internal",
+                                                              "AAM2_triple_internal",
+                                                              "AGM1_double",
+                                                              "AGM1_quad",
+                                                              "AGM1_quad_internal",
+                                                              "AGM1_single",
+                                                              "AGM_heavy_internal",
+                                                              "AGM_heavy_internalx4",
+                                                              "AGM_heavy_internalx8",
+                                                              "AGM_heavy_single",
+                                                              "AGM_heavyx2",
+                                                              "ARM1_double",
+                                                              "ARM1_internalx2",
+                                                              "ARM1_single",
+                                                              "bomb500_internal",
+                                                              "bomb500_internalx2",
+                                                              "bomb500_internalx4",
+                                                              "bomb500_internalx8",
+                                                              "bomb500_single",
+                                                              "bomb_250_1_internalx3",
+                                                              "bomb_250_1_single",
+                                                              "bomb_250_1_internal",
+                                                              "bomb_250_1_triple",
+                                                              "bomb_demolition_internal",
+                                                              "bomb_glide1_single",
+                                                              "bomb_glide1_triple",
+                                                              "bomb_penetrator1",
+                                                              "bomb_penetrator1_internalx2",
+                                                              "bomb_penetrator1_internalx3",
+                                                              "CruiseMissile1_internal",
+                                                              "CruiseMissile1_internalx2",
+                                                              "CruiseMissile1_internalx4",
+                                                              "CruiseMissile1_internalx6",
+                                                              "CruiseMissile20kt_internalx2",
+                                                              "IRMS1_double",
+                                                              "IRMS1_single",
+                                                              "JammingPod1",
+                                                              "nuclearBomb1_internal",
+                                                              "nuclearBomb1_internalx2",
+                                                              "nuclearBomb1_internalx4",
+                                                              "nuclearBomb1_strategic_internal",
+                                                              "nuclearBomb1_strategic_internalx2",
+                                                              "nuclearBomb1_strategic_internalx4",
+                                                              "RocketPod1_single",
+                                                              "AGM1_floorLauncher_QuadVTOL1",
+                                                              "76mmSideMount",
+                                                              "bomb250_internalx18",
+                                                              "RocketPod1_triple"
+                                                          ]
+                                          }
+                     }
+                 ],
+    "airbases":  [
+                     {
+                         "IsOverride":  false,
+                         "faction":  "Boscali",
+                         "UniqueName":  "Boscali Airspawn",
+                         "DisplayName":  "Boscali Airspawn",
+                         "Disabled":  false,
+                         "Capturable":  false,
+                         "CaptureDefense":  10.0,
+                         "CaptureRange":  1000.0,
+                         "Center":  {
+                                        "x":  6237.09228515625,
+                                        "y":  2003.6514892578125,
+                                        "z":  2817.85595703125
+                                    },
+                         "SelectionPosition":  {
+                                                   "x":  6162.69677734375,
+                                                   "y":  1948.680419921875,
+                                                   "z":  2791.63720703125
+                                               },
+                         "Tower":  "",
+                         "VerticalLandingPoints":  [
+                                                       {
+                                                           "x":  6237.09228515625,
+                                                           "y":  2008.6514892578125,
+                                                           "z":  2817.85595703125
+                                                       }
+                                                   ],
+                         "ServicePoints":  [
+                                               {
+                                                   "x":  6468.80712890625,
+                                                   "y":  2008.6514892578125,
+                                                   "z":  2817.85595703125
+                                               },
+                                               {
+                                                   "x":  6298.46142578125,
+                                                   "y":  2008.6514892578125,
+                                                   "z":  2817.85595703125
+                                               },
+                                               {
+                                                   "x":  6090.27783203125,
+                                                   "y":  2008.6514892578125,
+                                                   "z":  2817.85595703125
+                                               },
+                                               {
+                                                   "x":  5869.38427734375,
+                                                   "y":  2008.6514892578125,
+                                                   "z":  2817.85595703125
+                                               },
+                                               {
+                                                   "x":  5653.736328125,
+                                                   "y":  2008.6514892578125,
+                                                   "z":  2817.85595703125
+                                               },
+                                               {
+                                                   "x":  6674.638671875,
+                                                   "y":  2008.6514892578125,
+                                                   "z":  2817.85595703125
+                                               },
+                                               {
+                                                   "x":  6870.73583984375,
+                                                   "y":  2002.07568359375,
+                                                   "z":  2817.85595703125
+                                               }
+                                           ],
+                         "roads":  {
+                                       "roads":  [
+
+                                                 ]
+                                   },
+                         "runways":  [
+                                         {
+                                             "Name":  "",
+                                             "Reversable":  true,
+                                             "Takeoff":  true,
+                                             "Landing":  true,
+                                             "Arrestor":  false,
+                                             "SkiJump":  false,
+                                             "Width":  100.0,
+                                             "Start":  {
+                                                           "x":  5532.33740234375,
+                                                           "y":  2003.6514892578125,
+                                                           "z":  2793.48486328125
+                                                       },
+                                             "End":  {
+                                                         "x":  7065.5419921875,
+                                                         "y":  2003.6514892578125,
+                                                         "z":  2793.767578125
+                                                     },
+                                             "exitPoints":  [
+
+                                                            ]
+                                         }
+                                     ]
+                     },
+                     {
+                         "IsOverride":  false,
+                         "faction":  "Primeva",
+                         "UniqueName":  "Primeva Airspawn",
+                         "DisplayName":  "Primeva Airspawn",
+                         "Disabled":  false,
+                         "Capturable":  true,
+                         "CaptureDefense":  10.0,
+                         "CaptureRange":  1000.0,
+                         "Center":  {
+                                        "x":  6494.9541015625,
+                                        "y":  2093.700927734375,
+                                        "z":  15039.64453125
+                                    },
+                         "SelectionPosition":  {
+                                                   "x":  7144.0478515625,
+                                                   "y":  2044.30810546875,
+                                                   "z":  15030.341796875
+                                               },
+                         "Tower":  "",
+                         "VerticalLandingPoints":  [
+                                                       {
+                                                           "x":  6494.9541015625,
+                                                           "y":  2098.700927734375,
+                                                           "z":  15039.64453125
+                                                       }
+                                                   ],
+                         "ServicePoints":  [
+                                               {
+                                                   "x":  7134.6103515625,
+                                                   "y":  2098.699951171875,
+                                                   "z":  15039.599609375
+                                               },
+                                               {
+                                                   "x":  5763.81201171875,
+                                                   "y":  2098.700927734375,
+                                                   "z":  15039.64453125
+                                               },
+                                               {
+                                                   "x":  6940.35107421875,
+                                                   "y":  2098.700927734375,
+                                                   "z":  15039.64453125
+                                               },
+                                               {
+                                                   "x":  6152.283203125,
+                                                   "y":  2098.700927734375,
+                                                   "z":  15039.64453125
+                                               },
+                                               {
+                                                   "x":  5957.66064453125,
+                                                   "y":  2098.700927734375,
+                                                   "z":  15039.64453125
+                                               },
+                                               {
+                                                   "x":  6494.9541015625,
+                                                   "y":  2098.700927734375,
+                                                   "z":  15047.1357421875
+                                               },
+                                               {
+                                                   "x":  6746.4833984375,
+                                                   "y":  2098.700927734375,
+                                                   "z":  15039.64453125
+                                               }
+                                           ],
+                         "roads":  {
+                                       "roads":  [
+
+                                                 ]
+                                   },
+                         "runways":  [
+                                         {
+                                             "Name":  "",
+                                             "Reversable":  true,
+                                             "Takeoff":  true,
+                                             "Landing":  true,
+                                             "Arrestor":  false,
+                                             "SkiJump":  false,
+                                             "Width":  100.0,
+                                             "Start":  {
+                                                           "x":  5671.6005859375,
+                                                           "y":  2093.700927734375,
+                                                           "z":  15039.64453125
+                                                       },
+                                             "End":  {
+                                                         "x":  7231.08154296875,
+                                                         "y":  2093.700927734375,
+                                                         "z":  15039.64453125
+                                                     },
+                                             "exitPoints":  [
+
+                                                            ]
+                                         }
+                                     ]
+                     }
+                 ],
+    "objectives":  {
+                       "Objectives":  [
+                                          {
+                                              "UniqueName":  "Mission Start",
+                                              "Faction":  "",
+                                              "DisplayName":  "",
+                                              "Hidden":  true,
+                                              "Type":  0,
+                                              "TypeName":  "None",
+                                              "Data":  [
+
+                                                       ],
+                                              "Outcomes":  [
+
+                                                           ]
+                                          }
+                                      ],
+                       "Outcomes":  [
+
+                                    ]
+                   }
 }
