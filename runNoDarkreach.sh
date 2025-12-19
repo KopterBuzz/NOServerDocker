@@ -1,8 +1,8 @@
 QUOTA=1
 INDEX=1
-SERVERPORT=7780
-QUERYPORT=7781
-RCONPORT=50000
+SERVERPORT=7785
+QUERYPORT=7786
+RCONPORT=50005
 CPU1=0
 CPU2=1
 for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
@@ -11,12 +11,12 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/udp \
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/tcp \
         -p $RCONPORT-$RCONPORT:$RCONPORT-$RCONPORT/tcp \
-        -v "$(pwd)/dogfightMission":/missions \
+        -v "$(pwd)/Escalation_NoDarkReach":/missions \
         -v "$(pwd)/banlist":/banlist \
         -v "$(pwd)/replays":/replays \
         -v "$(pwd)/serverlog":/serverlog noserver \
         --modded true \
-        --name "BROCCOLI DEFROST FORCE DOGFIGHT #"$INDEX"" \
+        --name "BROCCOLI DEFROST FORCE PVP #"$INDEX"" \
         --password ""\
         --portOverride true \
         --portValue $SERVERPORT \
@@ -35,4 +35,3 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     ((CPU1=$CPU1+2))
     ((CPU2=$CPU2+2))
 done
-    
