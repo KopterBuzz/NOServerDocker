@@ -31585,10 +31585,8 @@
             "addAIPerEnemyPlayer": 1.0,
             "objectives": [],
             "restrictions": {
-                "aircraft": [
-                    "Darkreach"
-                ],
-                "weapons": []
+                "aircraft": [],
+                "weapons": ["AShM3","ballisticMissile1_tacNuke","ballisticMissile1"]
             },
             "cameraStartPosition": {
                 "IsOverride": true,
@@ -31653,7 +31651,7 @@
             "objectives": [],
             "restrictions": {
                 "aircraft": [],
-                "weapons": []
+                "weapons": ["AShM3","ballisticMissile1_tacNuke","ballisticMissile1"]
             },
             "cameraStartPosition": {
                 "IsOverride": true,

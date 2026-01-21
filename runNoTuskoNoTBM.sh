@@ -11,18 +11,18 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/udp \
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/tcp \
         -p $RCONPORT-$RCONPORT:$RCONPORT-$RCONPORT/tcp \
-        -v "$(pwd)/Escalation_NoDarkReach":/missions \
+        -v "$(pwd)/NoTuskoNoTBM":/missions \
         -v "$(pwd)/banlist":/banlist \
         -v "$(pwd)/replays":/replays \
         -v "$(pwd)/serverlog":/serverlog noserver \
-        --modded true \
+        --modded false \
         --name "BROCCOLI DEFROST FORCE PVP #"$INDEX"" \
         --password ""\
         --portOverride true \
         --portValue $SERVERPORT \
         --queryOverride true \
         --queryValue $QUERYPORT \
-        --maxplayers 8 \
+        --maxplayers 16 \
         --noStopTime 0 \
         --rconPort $RCONPORT \
         --rconPassword "defaultpassword" \
