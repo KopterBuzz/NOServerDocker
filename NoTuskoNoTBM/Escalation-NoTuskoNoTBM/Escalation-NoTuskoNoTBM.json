@@ -31586,7 +31586,17 @@
             "objectives": [],
             "restrictions": {
                 "aircraft": [],
-                "weapons": ["AShM3","ballisticMissile1_tacNuke","ballisticMissile1"]
+                "weapons": [
+                    "AShM3",
+                    "ballisticMissile1_tacNuke",
+                    "ballisticMissile1",
+                    "AShM3_single",
+                    "AShM3_internalx4_stack",
+                    "AShM3_internalx2",
+                    "AShM3_internalx4_flat",
+                    "BallisticMissile1_internalx2",
+                    "BallisticMissile1_tacNuke_internalx2"
+                ]
             },
             "cameraStartPosition": {
                 "IsOverride": true,
@@ -31651,7 +31661,17 @@
             "objectives": [],
             "restrictions": {
                 "aircraft": [],
-                "weapons": ["AShM3","ballisticMissile1_tacNuke","ballisticMissile1"]
+                "weapons": [
+                    "AShM3",
+                    "ballisticMissile1_tacNuke",
+                    "ballisticMissile1",
+                    "BallisticMissile1_internalx2",
+                    "BallisticMissile1_tacNuke_internalx2",
+                    "AShM3_internalx2",
+                    "AShM3_internalx4_flat",
+                    "AShM3_internalx4_stack",
+                    "AShM3_single"
+                ]
             },
             "cameraStartPosition": {
                 "IsOverride": true,
