@@ -3,8 +3,8 @@ INDEX=1
 SERVERPORT=7780
 QUERYPORT=7781
 RCONPORT=50000
-CPU1=0
-CPU2=1
+CPU1=2
+CPU2=3
 for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     sudo docker run -d \
         --cpuset-cpus=$CPU1,$CPU2 \
@@ -15,7 +15,7 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         -v "$(pwd)/banlist":/banlist \
         -v "$(pwd)/replays":/replays \
         -v "$(pwd)/serverlog":/serverlog noserver \
-        --modded true \
+        --modded false \
         --name "BROCCOLI DEFROST FORCE DOGFIGHT #"$INDEX"" \
         --password ""\
         --portOverride true \

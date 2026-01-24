@@ -3,20 +3,20 @@ INDEX=1
 SERVERPORT=7785
 QUERYPORT=7786
 RCONPORT=50005
-CPU1=0
-CPU2=1
+CPU1=4
+CPU2=5
 for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     sudo docker run -d \
         --cpuset-cpus=$CPU1,$CPU2 \
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/udp \
         -p $SERVERPORT-$QUERYPORT:$SERVERPORT-$QUERYPORT/tcp \
         -p $RCONPORT-$RCONPORT:$RCONPORT-$RCONPORT/tcp \
-        -v "$(pwd)/NoTuskoNoTBM":/missions \
+        -v "$(pwd)/PvEMission":/missions \
         -v "$(pwd)/banlist":/banlist \
         -v "$(pwd)/replays":/replays \
         -v "$(pwd)/serverlog":/serverlog noserver \
         --modded false \
-        --name "BROCCOLI DEFROST FORCE PVP "$INDEX"" \
+        --name "BROCCOLI DEFROST FORCE PVE "$INDEX"" \
         --password ""\
         --portOverride true \
         --portValue $SERVERPORT \
