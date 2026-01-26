@@ -152,7 +152,7 @@ echo "missions folder content: "
 echo $MISSIONS_DIR
 ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
-SERVER_NAME="${SERVER_NAME// /_}"
-TIME_STAMP=$(date +"%Y-%m-%d_%H-%M-%S")
-LOG_FILE_PATH = "../serverlog/$SERVER_NAME_$TIME_STAMP_serverlog.log"
-./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile $LOG_FILE_PATH
+servername="${SERVER_NAME// /_}"
+timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
+logfilepath= "../serverlog/${servername}_${timestamp}_serverlog.log"
+./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile $logfilepath
