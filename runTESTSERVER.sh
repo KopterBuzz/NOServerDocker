@@ -17,7 +17,7 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         -v "$(pwd)/serverlog":/serverlog noserver \
         --modded false \
         --name "7ep3s TEST SERVER" \
-        --password "whyareyoureadteaming?"\
+        --password ""\
         --portOverride true \
         --portValue $SERVERPORT \
         --queryOverride true \
