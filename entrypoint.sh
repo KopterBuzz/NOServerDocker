@@ -154,5 +154,5 @@ ls -l $MISSIONS_DIR
 chmod +x ./run_bepinex.sh
 servername="${SERVER_NAME// /_}"
 timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
-logfilepath= "../serverlog/${servername}_${timestamp}_serverlog.log"
+logfilepath="../serverlog/${servername}_${timestamp}_serverlog.log"
 ./run_bepinex.sh -limitframerate $FPS_LIMIT -ServerRemoteCommands 7779 -logFile $logfilepath
