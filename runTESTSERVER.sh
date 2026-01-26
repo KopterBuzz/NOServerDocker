@@ -25,7 +25,7 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         --maxplayers 16 \
         --noStopTime 0 \
         --rconPort $RCONPORT \
-        --rconPassword "Kutyafaszu!" \
+        --rconPassword "defaultpassword" \
         --fpsLimit 60 \
         --rotationType 2
 
