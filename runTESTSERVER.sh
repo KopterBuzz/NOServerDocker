@@ -1,10 +1,10 @@
 QUOTA=1
 INDEX=1
-SERVERPORT=7787
-QUERYPORT=7788
-RCONPORT=50004
-CPU1=4
-CPU2=5
+SERVERPORT=7789
+QUERYPORT=7790
+RCONPORT=50001
+CPU1=6
+CPU2=7
 for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
     sudo docker run -d \
         --cpuset-cpus=$CPU1,$CPU2 \
@@ -16,8 +16,8 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         -v "$(pwd)/replays":/replays \
         -v "$(pwd)/serverlog":/serverlog noserver \
         --modded false \
-        --name "BROCCOLI DEFROST FORCE PVE "$INDEX"" \
-        --password ""\
+        --name "7ep3s TEST SERVER" \
+        --password "whyareyoureadteaming?"\
         --portOverride true \
         --portValue $SERVERPORT \
         --queryOverride true \
@@ -25,7 +25,7 @@ for ((INDEX=1;INDEX<$QUOTA+1;INDEX++)); do
         --maxplayers 16 \
         --noStopTime 0 \
         --rconPort $RCONPORT \
-        --rconPassword "defaultpassword" \
+        --rconPassword "Kutyafaszu!" \
         --fpsLimit 60 \
         --rotationType 2
 
