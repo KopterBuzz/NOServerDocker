@@ -1,5 +1,5 @@
 sudo docker run \
-    --cpuset-cpus=0,1,2,3 \
+    --cpuset-cpus=0 \
     -p 7777-7778:7777-7778/udp \
     -p 7777-7778:7777-7778/tcp \
     -p 50000-50000:50000-50000/tcp \
